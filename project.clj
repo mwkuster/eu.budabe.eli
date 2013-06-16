@@ -10,7 +10,7 @@
                  [enlive "1.1.1"]
                  [hiccup "1.0.3"]
                  [seabass "2.0"]]
-  :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
+  :aot [eu.budabe.eli.jena.toeli eu.budabe.eli.jena.tort]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler eu.budabe.eli.routing/app}
   :profiles
