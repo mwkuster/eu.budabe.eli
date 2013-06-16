@@ -37,7 +37,7 @@
   (GET "/eli/:typedoc/:year/:natural_number/oj/:lang" [typedoc year natural_number lang]
        (resp/redirect (format "/eli/%s/%s/%s/oj" typedoc year natural_number)))
 
-  (GET "/eli/:typedoc/:year/:natural_number/oj/:lang/:format" [typedoc year natural_number lang format]
+  (GET "/eli/:typedoc/:year/:natural_number/oj/:lang/:form" [typedoc year natural_number lang form]
        (resp/redirect (format "/eli/%s/%s/%s/oj" typedoc year natural_number)))
 
   (GET "/eli/" []
