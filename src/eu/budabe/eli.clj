@@ -88,7 +88,6 @@ WHERE {
      (list (nth year-number-parse 1) (nth year-number-parse 2))
      (let ;case number / year
          [number-year-parse (first (re-seq #"(\d+)/(19\d{2}|20\d{2})" number))]
-       (println number-year-parse)
        (if number-year-parse
          (list (nth number-year-parse 2) (nth number-year-parse 1))
          (list "NO_YEAR" "NO_NUMBER"))))))
@@ -109,7 +108,6 @@ WHERE {
   [cellar-psi]
   (let
       [uri (URLDecoder/decode cellar-psi)]
-    (println uri)
     (if (.startsWith uri "http://publications.europa.eu/resource/cellar")
       (client/get uri {:as :stream})
       {:status 404})))
@@ -119,7 +117,6 @@ WHERE {
 (defn eli4psi 
   "Transform where possible a Cellar PSI into an ELI"
    [cellar-psi]
-     (println cellar-psi)
      (if (find @elis cellar-psi)
        (get @elis cellar-psi)
        (let

@@ -40,6 +40,12 @@
   (GET "/eli/:typedoc/:year/:natural_number/oj/:lang/:form" [typedoc year natural_number lang form]
        (resp/redirect (format "/eli/%s/%s/%s/oj" typedoc year natural_number)))
 
+  (GET "/" []
+       (resp/redirect "/psi2eli.html"))
+
+  (GET "/eli" []
+       (resp/redirect "/psi2eli.html"))
+
   (GET "/eli/" []
        (resp/redirect "/psi2eli.html"))
 
