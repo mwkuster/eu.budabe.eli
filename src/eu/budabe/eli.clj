@@ -78,6 +78,16 @@ WHERE {
   }
 } LIMIT 1")
 
+(def lang-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+SELECT DISTINCT ?lang_code
+WHERE {
+GRAPH <#{GRAPH-URI}> {
+  ?expr cdm:expression_uses_language  ?lang .
+  BIND(lcase(replace(str(?lang), '.*/([A-Z]{3})', '$1')) AS ?lang_code)
+}
+}
+ORDER BY ?lang_code")
+
 
 (defn parse-number
  "Parse numbers of type 2010/24 (EU). This implementation is a bit of a hack since we don't know in advance the sequence and there are ambiguous situations"
@@ -120,21 +130,36 @@ WHERE {
    (if (find @elis cellar-psi)
      (get @elis cellar-psi)
      (let
-         [eli (try
+         [eli 
+          (try
+            (let
+                [graph-uri (get-graph-uri cellar-psi)
+                 query (clojure.string/replace eli-query "#{GRAPH-URI}" graph-uri)
+                 query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
+                 query-result (json/parse-string (:body (client/get query-url)))
+                 binding (first (get (get query-result "results")  "bindings"))]
+              (println binding)
+              (if binding
                 (let
-                    [graph-uri (get-graph-uri cellar-psi)
-                     query (clojure.string/replace eli-query "#{GRAPH-URI}" graph-uri)
-                     query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
-                     query-result (json/parse-string (:body (client/get query-url)))
-                     binding (first (get (get query-result "results")  "bindings"))]
-                  (if binding
+                    [number (get (get binding "number") "value")
+                     [year natural-number] (parse-number number)
+                     typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
+                     is-corrigendum  (get (get binding "is_corrigendum") "value")]
+                  (println "is-corrigendum" is-corrigendum)
+                  (if (= is-corrigendum "C")
                     (let
-                        [number (get (get binding "number") "value")
-                         [year natural-number] (parse-number number)
-                         typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))]
-                      (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj"))
-                    cellar-psi))
-                (catch Exception e cellar-psi))]
+                        [lang-query-replaced (clojure.string/replace lang-query "#{GRAPH-URI}" graph-uri)
+                         lang-query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode lang-query-replaced) "&output=json")
+                         lang-query-result (json/parse-string (:body (client/get lang-query-url)))
+                         lang-binding (get (get lang-query-result "results")  "bindings")
+                         langs (clojure.string/join "-" (map #(get (get %1 "lang_code") "value") lang-binding))
+                         pub-date (get (get binding "pub_date") "value")]  
+                      (if lang-binding
+                        (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/corr-" langs "/" pub-date "/oj"))
+                      cellar-psi))
+                    (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj")))
+                cellar-psi))
+            (catch Exception e cellar-psi))]
        (swap! elis assoc cellar-psi eli)
        eli)))
 
