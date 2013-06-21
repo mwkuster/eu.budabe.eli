@@ -157,7 +157,7 @@ ORDER BY ?lang_code")
                       (if lang-binding
                         (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/corr-" langs "/" pub-date "/oj"))
                       cellar-psi))
-                    (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj")))
+                  (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj"))
                 cellar-psi))
             (catch Exception e cellar-psi))]
        (swap! elis assoc cellar-psi eli)
