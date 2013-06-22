@@ -18,14 +18,16 @@
   ([]
      [[]]))
 
-(defn- ^NodeValue -exec[this ^NodeValue nv1] ;seems never to be called
+(defn- ^NodeValue -exec[^ToRT this ^NodeValue nv1] ;seems never to be called
+  ;;(com.hp.hpl.jena.sparql.expr.NodeValue/makeString "http://www.gogole.com"))
   (com.hp.hpl.jena.sparql.expr.NodeValue/makeString 
      (str "http://publications.europa.eu/resource/authority/resource-type/" 
           (clojure.string/upper-case (get eli/TYPEDOC_RT_MAPPING (.asString nv1))))))
 
-(defn- ^NodeValue -exec[this ^Binding binding ^ExprList args ^String uri ^FunctionEnv env]
+(defn- ^NodeValue -exec[^ToRT this ^Binding binding ^ExprList args ^String uri ^FunctionEnv env]
+  ;;(com.hp.hpl.jena.sparql.expr.NodeValue/makeString "http://www.gogole.com"))
   (let
-      ;for the rather byzantine interface of exec cf. file://localhost/Users/marcwilhelmkuster/Dropbox/bin/apache-jena-2.10.0/javadoc-arq/index.html, class ExprVar
+      ;for the rather byzantine interface of exec cf. http://jena.apache.org/documentation/javadoc/arq/com/hp/hpl/jena/sparql/expr/ExprVar.html
       [first-arg (.asString (.eval (.getExprVar (first args)) binding env))]
     (com.hp.hpl.jena.sparql.expr.NodeValue/makeString 
      (str "http://publications.europa.eu/resource/authority/resource-type/" 

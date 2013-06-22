@@ -3,6 +3,7 @@
   (:require [seabass.core :as rdf])
   (:require [clj-http.client :as client])
   (:require [cheshire.core :as json])
+  (:use eu.budabe.eli.rdfa)
   (:import [java.net URLEncoder URLDecoder])
   (:import [java.net URL]))
 
@@ -14,7 +15,7 @@
 
 (def manifestation-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri WHERE {?u cdm:expression_manifested_by_manifestation ?uri}")
 
-(defn in-cache? [cellar-psi]
+(defn in-cache? [^String cellar-psi]
   (let
       [find-graph-query (URLEncoder/encode (clojure.string/replace "PREFIX owl: <http://www.w3.org/2002/07/owl#>
 SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {?s owl:sameAs <#{cellar_psi}>}} } LIMIT 1" "#{cellar_psi}" cellar-psi))
@@ -28,7 +29,7 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
 
 (defn fetch-work-remotely
   "Fetch a work-level Cellar PSI either remotely"
-  [cellar-psi]
+  [^String cellar-psi]
   (let
       [work-model (build-model (list cellar-psi))
        expression-model (build-model (map :uri (:data (rdf/bounce expression-query work-model))))
@@ -37,14 +38,14 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
 
 (defn fetch-work-from-cache 
   "Fetch a work-level Cellar PSI from cache"
-  [graph-uri]
+  [^String graph-uri]
   (let
       [cache-uri (str "http://localhost:3030/eli/data?graph=" (URLEncoder/encode graph-uri))]
     (rdf/build [cache-uri "TTL"])))
 
 (defn add-to-cache
   "Add a model to the cache"
-  [cellar-psi model]
+  [^String cellar-psi model]
   (let
       [cache-uri (str "http://localhost:3030/eli/data?graph=" (URLEncoder/encode cellar-psi))]
     (client/put cache-uri  {:body (model-to-string model) :headers {"Content-Type" "application/rdf+xml"}})
@@ -52,7 +53,7 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
       
 (defn fetch-work 
   "Fetch a work-level Cellar PSI and all its metadata either from a local cache or remotely"
-  [cellar-psi]
+  [^String cellar-psi]
   (let
       [in-cache (in-cache? cellar-psi)
        model (if in-cache
@@ -91,7 +92,7 @@ ORDER BY ?lang_code")
 
 (defn parse-number
  "Parse numbers of type 2010/24 (EU). This implementation is a bit of a hack since we don't know in advance the sequence and there are ambiguous situations"
- [number]
+ [^String number]
  (let ;case year / number
      [year-number-parse (first (re-seq #"(19\d{2}|20\d{2})/(\d+)" number))]
    (if year-number-parse
@@ -104,7 +105,7 @@ ORDER BY ?lang_code")
 
 (defn get-graph-uri
   "Get the Graph URI of an object in the cache (if existing)"
-  [cellar-psi]
+  [^String cellar-psi]
   (let
       [graph-uri (in-cache? cellar-psi)]
     (if graph-uri
@@ -115,7 +116,7 @@ ORDER BY ?lang_code")
 
 (defn get-content
   "Get a brute content of a psi and return it to the sender (typically a binary datastream)"
-  [cellar-psi]
+  [^String cellar-psi]
   (let
       [uri (URLDecoder/decode cellar-psi)]
     (if (.startsWith uri "http://publications.europa.eu/resource/cellar")
@@ -165,14 +166,15 @@ ORDER BY ?lang_code")
 
 (defn eli-metadata
   "Return the ELI-encoded metadata for an object"
-  [cellar-psi]
+  [^String cellar-psi]
   (let
       [model (fetch-work cellar-psi)
        query (slurp "resources/eli_md.rq")]
     (rdf/pull query model)))
     
-
 (defn -main [cellar-psi & args]
-  (let
-      [m (fetch-work cellar-psi)]
-    (save-model m (str "/tmp/" (URLEncoder/encode cellar-psi) ".rdf"))))  
+  (dotimes [n 100]
+    (let
+        [m (eli-metadata cellar-psi)]
+      m)))
+;(spit "/tmp/rdfa.html"  (build-rdfa m)))))
