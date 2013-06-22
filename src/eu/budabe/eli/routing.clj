@@ -15,7 +15,6 @@
 
 (timbre/set-config! [:appenders :standard-out :enabled?] false)
 (timbre/set-config! [:appenders :spit :enabled?] true)
-(timbre/set-config! [:appenders :spit :async?] true)
 (timbre/set-config! [:shared-appender-config :spit-filename] "logs/eu.budabe.eli.log")
 (timbre/set-level! :info)
 
@@ -27,20 +26,24 @@
        (resp/redirect "/psi2eli.html"))
 
   (GET "/eli/:typedoc/:year/:natural_number/oj" [typedoc year natural_number]
-       (let
-           [sector 
-            (case typedoc
-              ("dir" "dir_impl" "dir_del") "L"
-              ("reg" "reg_impl" "reg_del") "R"
-              ("dec" "dec_impl" "dec_del") "D"
-              nil)
-            celex-psi (if sector
-                        (format "http://publications.europa.eu/resource/celex/3%s%s%04d" year sector  (parse-int natural_number))
-                        nil)]
-         (info "celex-psi: " celex-psi)
-         (if celex-psi
-           (build-rdfa (eli-metadata celex-psi))
-           (route/not-found (format "<h1>Document type %s not yet supported</h1>" typedoc)))))
+       (try
+         (let
+             [sector 
+              (case typedoc
+                ("dir" "dir_impl" "dir_del") "L"
+                ("reg" "reg_impl" "reg_del") "R"
+                ("dec" "dec_impl" "dec_del") "D"
+                nil)
+              celex-psi (if sector
+                          (format "http://publications.europa.eu/resource/celex/3%s%s%04d" year sector  (parse-int natural_number))
+                          nil)]
+           (info "celex-psi: " celex-psi)
+           (if celex-psi
+             (build-rdfa (eli-metadata celex-psi))
+             (route/not-found (format "<h1>Document type %s not yet supported</h1>" typedoc))))
+         (catch Exception e
+           (error e)
+           (route/not-found "<h1>Could not find the requested document</h1>"))))
 
   (GET "/eli/:typedoc/:year/:natural_number/oj/:lang" [typedoc year natural_number lang]
        (resp/redirect (format "/eli/%s/%s/%s/oj" typedoc year natural_number)))
@@ -75,6 +78,7 @@
        (try
          (build-rdfa (eli-metadata psi))
          (catch clojure.lang.ExceptionInfo e
+           (error e)
            (route/not-found "<h1>#{psi} not found</h1>"))))
 
   (GET ["/content/:psi", :psi #"[^/;?]+"] [psi] 
