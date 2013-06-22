@@ -11,6 +11,7 @@
 
 (timbre/set-config! [:appenders :standard-out :enabled?] false)
 (timbre/set-config! [:appenders :spit :enabled?] true)
+(timbre/set-config! [:appenders :spit :async?] true)
 (timbre/set-config! [:shared-appender-config :spit-filename] "logs/eu.budabe.eli.log")
 (timbre/set-level! :info)
 
