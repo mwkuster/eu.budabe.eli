@@ -3,9 +3,16 @@
   (:require [seabass.core :as rdf])
   (:require [clj-http.client :as client])
   (:require [cheshire.core :as json])
+  (:require [taoensso.timbre :as timbre
+            :refer (trace debug info warn error fatal spy)])
   (:use eu.budabe.eli.rdfa)
   (:import [java.net URLEncoder URLDecoder])
   (:import [java.net URL]))
+
+(timbre/set-config! [:appenders :standard-out :enabled?] false)
+(timbre/set-config! [:appenders :spit :enabled?] true)
+(timbre/set-config! [:shared-appender-config :spit-filename] "logs/eu.budabe.eli.log")
+(timbre/set-level! :info)
 
 (def TYPEDOC_RT_MAPPING (json/parse-string (slurp "resources/typedoc_rt_mapping.json")))
 
@@ -139,14 +146,14 @@ ORDER BY ?lang_code")
                  query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
                  query-result (json/parse-string (:body (client/get query-url)))
                  binding (first (get (get query-result "results")  "bindings"))]
-              (println binding)
+              (info binding)
               (if binding
                 (let
                     [number (get (get binding "number") "value")
                      [year natural-number] (parse-number number)
                      typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
                      is-corrigendum  (get (get binding "is_corrigendum") "value")]
-                  (println "is-corrigendum" is-corrigendum)
+                  (info "is-corrigendum" is-corrigendum)
                   (if (= is-corrigendum "C")
                     (let
                         [lang-query-replaced (clojure.string/replace lang-query "#{GRAPH-URI}" graph-uri)

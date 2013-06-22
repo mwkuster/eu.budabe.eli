@@ -9,7 +9,14 @@
   (:require [compojure.handler :as handler])
   (:require
         [ring.util.response :as resp])
-  (:require [ring.adapter.jetty :as jetty]))
+  (:require [ring.adapter.jetty :as jetty]) 
+  (:require [taoensso.timbre :as timbre
+            :refer (trace debug info warn error fatal spy)]))
+
+(timbre/set-config! [:appenders :standard-out :enabled?] false)
+(timbre/set-config! [:appenders :spit :enabled?] true)
+(timbre/set-config! [:shared-appender-config :spit-filename] "logs/eu.budabe.eli.log")
+(timbre/set-level! :info)
 
 (defn parse-int [s]
   (Integer. (re-find #"[0-9]*" s)))
@@ -29,7 +36,7 @@
             celex-psi (if sector
                         (format "http://publications.europa.eu/resource/celex/3%s%s%04d" year sector  (parse-int natural_number))
                         nil)]
-         (println "celex-psi: " celex-psi)
+         (info "celex-psi: " celex-psi)
          (if celex-psi
            (build-rdfa (eli-metadata celex-psi))
            (route/not-found (format "<h1>Document type %s not yet supported</h1>" typedoc)))))
@@ -59,11 +66,11 @@
        (resp/redirect (str "/eli4psi/http%3A%2F%2Fpublications.europa.eu%2Fresource%2Foj%2F" oj)))
   
   (GET ["/eli4psi/:psi", :psi #"[^/;?]+"] [psi] 
-       (println "/eli4psi/:psi" psi)
+       (info "/eli4psi/:psi" psi)
        (json/generate-string (eli4psi psi)))
 
   (GET  ["/eli4psi/:psi/metadata", :psi #"[^/;?]+"] [psi] 
-       (println "/eli4psi/:psi/metadata" psi)
+       (info "/eli4psi/:psi/metadata" psi)
        (try
          (build-rdfa (eli-metadata psi))
          (catch clojure.lang.ExceptionInfo e
@@ -84,7 +91,7 @@
 
 (defn wrap-prn-request [handler]
   (fn [request]
-    (println "request:" request)
+    (info "request:" request)
     (handler request)))
 
 (def app

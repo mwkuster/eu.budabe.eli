@@ -1,10 +1,17 @@
 (ns eu.budabe.eli.jena.access
   (:require [seabass.core :as rdf])
   (:require [clj-http.client :as client])
+  (:require [taoensso.timbre :as timbre
+             :refer (trace debug info warn error fatal spy)])
   (:import [com.hp.hpl.jena.rdf.model Model ModelFactory])
   (:import [com.hp.hpl.jena.reasoner.rulesys GenericRuleReasonerFactory Rule])
   (:import [com.hp.hpl.jena.vocabulary ReasonerVocabulary])
   (:import [java.io File OutputStreamWriter FileOutputStream]))
+
+(timbre/set-config! [:appenders :standard-out :enabled?] false)
+(timbre/set-config! [:appenders :spit :enabled?] true)
+(timbre/set-config! [:shared-appender-config :spit-filename] "logs/eu.budabe.eli.log")
+(timbre/set-level! :info)
 
 (defn save-model [model filename]
   (.write model (OutputStreamWriter. (FileOutputStream. filename) "UTF-8") "RDF/XML"))
@@ -17,7 +24,7 @@
 
 (defn build-model [urls]
   "Build a model based on a number of URLs, heavily inspired by https://github.com/ryankohl/seabass/blob/master/src/seabass/impl.clj"
-  (println urls)
+  (info urls)
   (let 
       [core (ModelFactory/createDefaultModel)
        model (ModelFactory/createDefaultModel)
