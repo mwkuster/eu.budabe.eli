@@ -191,10 +191,10 @@ ORDER BY ?lang_code")
 
 (defn eli-by-typedoc-year [typedoc year]
   (let
-      [by-year (eli-by-year year)
-       by-typedoc (eli-by-typedoc typedoc)]
+      [by-year (set (eli-by-year year))
+       by-typedoc (set (eli-by-typedoc typedoc))]
     ;this must be about the most inefficient way to implement this, I admit
-    (intersect by-year by-typedoc)))
+    (clojure.set/intersection by-year by-typedoc)))
 
 (defn eli-metadata
   "Return the ELI-encoded metadata for an object"
