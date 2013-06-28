@@ -16,6 +16,8 @@
 
 (def TYPEDOC_RT_MAPPING (json/parse-string (slurp "resources/typedoc_rt_mapping.json")))
 
+(def RT_TYPEDOC_MAPPING (clojure.set/map-invert TYPEDOC_RT_MAPPING))
+
 (def TYPEDOC_CB_MAPPING (json/parse-string (slurp "resources/typedoc_cb_mapping.json")))
 
 (def expression-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:work_has_expression ?uri}")
@@ -170,6 +172,29 @@ ORDER BY ?lang_code")
             (catch Exception e cellar-psi))]
        (swap! elis assoc cellar-psi eli)
        eli)))
+
+(defn eli-by-year [year]
+  (let
+      [query (clojure.string/replace (slurp "resources/by_year.rq") "2010" year)
+       query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
+       query-result (json/parse-string (:body (client/get query-url)))
+       binding (get (get query-result "results")  "bindings")]
+    (map #(eli4psi (get (get %1 "gra") "value")) binding)))
+
+(defn eli-by-typedoc [typedoc]
+  (let
+      [query (clojure.string/replace (slurp "resources/by_typedoc.rq") "dir_impl" (get RT_TYPEDOC_MAPPING typedoc))
+       query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
+       query-result (json/parse-string (:body (client/get query-url)))
+       binding (get (get query-result "results")  "bindings")]
+    (map #(eli4psi (get (get %1 "gra") "value")) binding)))
+
+(defn eli-by-typedoc-year [typedoc year]
+  (let
+      [by-year (eli-by-year year)
+       by-typedoc (eli-by-typedoc typedoc)]
+    ;this must be about the most inefficient way to implement this, I admit
+    (intersect by-year by-typedoc)))
 
 (defn eli-metadata
   "Return the ELI-encoded metadata for an object"

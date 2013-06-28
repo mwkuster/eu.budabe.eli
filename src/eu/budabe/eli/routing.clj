@@ -51,6 +51,15 @@
   (GET "/eli/:typedoc/:year/:natural_number/oj/:lang/:form" [typedoc year natural_number lang form]
        (resp/redirect (format "/eli/%s/%s/%s/oj" typedoc year natural_number)))
 
+  (GET ["/eli/:year", :year #"\d+"] [year]
+       (html-result-list (eli-by-year year)))
+
+  (GET ["/eli/:typedoc", :typedoc #"[a-z-]+"] [typedoc]
+       (html-result-list (eli-by-typedoc typedoc)))
+
+  (GET ["/eli/:typedoc/:year", :typedoc #"[a-z-]+", :year #"\d+"] [typedoc year]
+       (html-result-list (eli-by-typedoc-year typedoc year)))
+
   (GET "/" []
        (resp/redirect "/psi2eli.html"))
 

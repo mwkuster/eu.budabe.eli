@@ -1,0 +1,10 @@
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ext: <java:eu.budabe.eli.jena.>
+
+SELECT DISTINCT ?gra ?typedoc
+WHERE {
+  GRAPH ?gra {
+      ?manif cdm:manifestation_official-journal_part_typedoc_printer ?typedoc .
+  }
+} 

@@ -45,4 +45,14 @@
               
             
     
-    
+(defn html-result-list [eli-list]
+  (html [:html {:xmlns "http://www.w3.org/1999/xhtml"}
+         [:head 
+          [:meta {:charset "utf-8"}]
+          [:base {:href ""}]
+          [:title "Query"]
+          [:link {:rel "stylesheet" :href "/eli.css"}]] 
+         [:body  {:class "md"}
+          [:ul
+           (for [eli (sort eli-list)]
+             [:li [:a {:href eli} eli]])]]]))

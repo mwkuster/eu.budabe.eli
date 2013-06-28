@@ -1,0 +1,16 @@
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ext: <java:eu.budabe.eli.jena.>
+
+SELECT DISTINCT ?gra
+WHERE {
+  BIND ("2010"^^xsd:gYear AS ?year)
+  GRAPH ?gra {
+    {?uri cdm:resource_legal_year ?year }
+    UNION
+    {
+      ?manif cdm:manifestation_official-journal_part_information_number ?number .
+      FILTER(strlen(?number) > 0 && (regex(?number, concat("^", ?year), "i") || regex(?number, concat(?year, "$"), "i") || regex(?number, concat("/", ?year, " "), "i")))
+    }
+  }
+} 
