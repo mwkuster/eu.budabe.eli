@@ -54,10 +54,10 @@
   (GET ["/eli/:year", :year #"\d+"] [year]
        (html-result-list (eli-by-year year)))
 
-  (GET ["/eli/:typedoc", :typedoc #"[a-z-]+"] [typedoc]
+  (GET ["/eli/:typedoc", :typedoc #"[a-z_-]+"] [typedoc]
        (html-result-list (eli-by-typedoc typedoc)))
 
-  (GET ["/eli/:typedoc/:year", :typedoc #"[a-z-]+", :year #"\d+"] [typedoc year]
+  (GET ["/eli/:typedoc/:year", :typedoc #"[a-z_-]+", :year #"\d+"] [typedoc year]
        (html-result-list (eli-by-typedoc-year typedoc year)))
 
   (GET "/" []

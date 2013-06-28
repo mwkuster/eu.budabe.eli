@@ -5,6 +5,8 @@ PREFIX ext: <java:eu.budabe.eli.jena.>
 SELECT DISTINCT ?gra
 WHERE {
   GRAPH ?gra {
-      ?manif cdm:manifestation_official-journal_part_typedoc_printer  "dir_impl"^^xsd:string .
+    {?manif cdm:manifestation_official-journal_part_typedoc_printer  "dir_impl"^^xsd:string }
+    UNION
+    {?manif cdm:manifestation_official-journal_part_typedoc_printer  "dir_impl"}
   }
 } 
