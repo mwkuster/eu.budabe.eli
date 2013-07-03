@@ -101,7 +101,7 @@ ORDER BY ?lang_code")
 
 (defn parse-number
  "Parse numbers of type 2010/24 (EU). This implementation is a bit of a hack since we don't know in advance the sequence and there are ambiguous situations"
- [^String number]
+ [^String cellar-psi number]
  (let ;case year / number
      [year-number-parse (first (re-seq #"(19\d{2}|20\d{2})/(\d+)" number))]
    (if year-number-parse
@@ -110,7 +110,9 @@ ORDER BY ?lang_code")
          [number-year-parse (first (re-seq #"(\d+)/(19\d{2}|20\d{2})" number))]
        (if number-year-parse
          (list (nth number-year-parse 2) (nth number-year-parse 1))
-         (list "NO_YEAR" "NO_NUMBER"))))))
+         (do
+           (info "parse-number: could not parse number " number " for psi " cellar-psi)
+           (list "NO_YEAR" "NO_NUMBER")))))))
 
 (defn get-graph-uri
   "Get the Graph URI of an object in the cache (if existing)"
@@ -152,7 +154,7 @@ ORDER BY ?lang_code")
               (if binding
                 (let
                     [number (get (get binding "number") "value")
-                     [year natural-number] (parse-number number)
+                     [year natural-number] (parse-number cellar-psi number)
                      typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
                      is-corrigendum  (get (get binding "is_corrigendum") "value")]
                   (info "is-corrigendum" is-corrigendum)
