@@ -19,11 +19,9 @@
      [[]]))
 
 (defn- ^NodeValue -exec[^ToEli this ^NodeValue nv1] ;seems never to be called
-  ;(com.hp.hpl.jena.sparql.expr.NodeValue/makeString "http://www.gogole.com"))
   (com.hp.hpl.jena.sparql.expr.NodeValue/makeString (eli/eli4psi (.asString nv1))))
 
 (defn- ^NodeValue -exec[^ToEli this ^Binding binding ^ExprList args ^String uri ^FunctionEnv env]
-  ;;(com.hp.hpl.jena.sparql.expr.NodeValue/makeString "http://www.gogole.com"))
   (let
       ;for the rather byzantine interface of exec cf. http://jena.apache.org/documentation/javadoc/arq/com/hp/hpl/jena/sparql/expr/ExprVar.html
       [first-arg (.asString (.eval (.getExprVar (first args)) binding env))]

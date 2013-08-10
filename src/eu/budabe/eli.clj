@@ -6,6 +6,7 @@
   (:require [taoensso.timbre :as timbre
             :refer (trace debug info warn error fatal spy)])
   (:use eu.budabe.eli.rdfa)
+  (:require [clojure.set :as cs])
   (:import [java.net URLEncoder URLDecoder])
   (:import [java.net URL]))
 
@@ -16,9 +17,11 @@
 
 (def TYPEDOC_RT_MAPPING (json/parse-string (slurp "resources/typedoc_rt_mapping.json")))
 
-(def RT_TYPEDOC_MAPPING (clojure.set/map-invert TYPEDOC_RT_MAPPING))
+(def RT_TYPEDOC_MAPPING (cs/map-invert TYPEDOC_RT_MAPPING))
 
 (def TYPEDOC_CB_MAPPING (json/parse-string (slurp "resources/typedoc_cb_mapping.json")))
+
+(def oj-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:resource_legal_published_in_official-journal ?uri}")
 
 (def expression-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:work_has_expression ?uri}")
 
@@ -41,9 +44,10 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
   [^String cellar-psi]
   (let
       [work-model (build-model (list cellar-psi))
+       oj-model (build-model (map :uri (:data (rdf/bounce oj-query work-model))))
        expression-model (build-model (map :uri (:data (rdf/bounce expression-query work-model))))
        manifestation-model (build-model (map :uri (:data (rdf/bounce manifestation-query expression-model))))]
-    (rdf/build work-model expression-model manifestation-model)))
+    (rdf/build work-model oj-model expression-model manifestation-model)))
 
 (defn fetch-work-from-cache 
   "Fetch a work-level Cellar PSI from cache"
@@ -139,6 +143,7 @@ ORDER BY ?lang_code")
 (defn eli4psi 
   "Transform where possible a Cellar PSI into an ELI"
    [^String cellar-psi]
+   (println cellar-psi)
    (if (find @elis cellar-psi)
      (get @elis cellar-psi)
      (let
@@ -167,13 +172,18 @@ ORDER BY ?lang_code")
                          langs (clojure.string/join "-" (map #(get (get %1 "lang_code") "value") lang-binding))
                          pub-date (get (get binding "pub_date") "value")]  
                       (if lang-binding
-                        (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/corr-" langs "/" pub-date "/oj"))
-                      cellar-psi))
-                  (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj"))
+                        (do
+                          (info "langs: " langs)
+                          (info "pub-date: " pub-date)
+                          (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/" pub-date "/corr-" langs  "/oj"))
+                        cellar-psi))
+                    (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj")))
                 cellar-psi))
             (catch Exception e cellar-psi))]
        (swap! elis assoc cellar-psi eli)
        eli)))
+
+
 
 (defn eli-by-year [year]
   (let
@@ -205,6 +215,20 @@ ORDER BY ?lang_code")
       [model (fetch-work cellar-psi)
        query (slurp "resources/eli_md.rq")]
     (rdf/pull query model)))
+
+(defn get-psi-for-corrigendum [typedoc year natural-number pub-date langs]
+  "Get the metadata of a corrigendum from the Cache using its ELI"
+  (let
+      [query (slurp "resources/find_corrigendum.rq")
+       query-interpreted 
+       (clojure.string/replace query #"~typedoc~|~year~|~natural-number~|~pub-date~|~lang~" 
+                               {"~typedoc~" (get RT_TYPEDOC_MAPPING typedoc), "~year~" year, "~natural-number~" natural-number, 
+                                "~pub-date~" pub-date, "~lang~" (clojure.string/upper-case (first langs))})
+       query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query-interpreted) "&output=json")
+       query-result (json/parse-string (:body (client/get query-url)))]
+    (get (get (first (get (get  query-result "results") "bindings")) "gra") "value")))
+                          
+  
     
 (defn -main [cellar-psi & args]
   (dotimes [n 100]

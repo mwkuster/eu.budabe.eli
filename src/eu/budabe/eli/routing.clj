@@ -25,6 +25,17 @@
   (GET "/eli4psi" []
        (resp/redirect "/psi2eli.html"))
 
+  (GET "/eli/:typedoc/:year/:natural_number/:pub-date/corr-:langs/oj" [typedoc year natural_number pub-date langs]
+       (info typedoc year natural_number pub-date langs)
+       (let
+           [lang-lst (clojure.string/split langs #"-")
+            psi (get-psi-for-corrigendum typedoc year natural_number pub-date lang-lst)]
+         (println psi)
+         (if psi
+           (build-rdfa (eli-metadata psi))
+           (route/not-found (format "<h1>Document for ELI %s not found</h1>" typedoc)))))
+
+
   (GET "/eli/:typedoc/:year/:natural_number/oj" [typedoc year natural_number]
        (try
          (let
@@ -33,6 +44,7 @@
                 ("dir" "dir_impl" "dir_del") "L"
                 ("reg" "reg_impl" "reg_del") "R"
                 ("dec" "dec_impl" "dec_del") "D"
+                "rec" "H"
                 nil)
               celex-psi (if sector
                           (format "http://publications.europa.eu/resource/celex/3%s%s%04d" year sector  (parse-int natural_number))
