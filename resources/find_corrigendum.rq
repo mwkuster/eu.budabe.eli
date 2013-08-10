@@ -1,0 +1,13 @@
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?gra 
+WHERE {
+  GRAPH ?gra {
+    ?m cdm:manifestation_official-journal_part_typedoc_printer "~typedoc~"^^xsd:string .
+    ?m cdm:manifestation_official-journal_part_information_number "~year~/~natural-number~" ^^xsd:string .
+    ?w cdm:resource_legal_published_in_official-journal ?oj .
+    ?oj cdm:publication_general_date_publication "~pub-date~"^^xsd:date .
+    ?e cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/~lang~> .
+  }
+}
