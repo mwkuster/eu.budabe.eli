@@ -143,7 +143,7 @@ ORDER BY ?lang_code")
 (defn eli4psi 
   "Transform where possible a Cellar PSI into an ELI"
    [^String cellar-psi]
-   (println cellar-psi)
+   (info cellar-psi)
    (if (find @elis cellar-psi)
      (get @elis cellar-psi)
      (let
@@ -226,6 +226,7 @@ ORDER BY ?lang_code")
                                 "~pub-date~" pub-date, "~lang~" (clojure.string/upper-case (first langs))})
        query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query-interpreted) "&output=json")
        query-result (json/parse-string (:body (client/get query-url)))]
+    (info query-interpreted)
     (get (get (first (get (get  query-result "results") "bindings")) "gra") "value")))
                           
   
