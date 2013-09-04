@@ -5,6 +5,7 @@
   (:require [cheshire.core :as json])
   (:require [taoensso.timbre :as timbre
             :refer (trace debug info warn error fatal spy)])
+  (:require [uritemplate-clj.core :as templ])
   (:use eu.budabe.eli.rdfa)
   (:require [clojure.set :as cs])
   (:import [java.net URLEncoder URLDecoder])
@@ -78,12 +79,13 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
 
 (def eli-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?number ?typedoc ?is_corrigendum  ?pub_date
+SELECT ?number ?typedoc ?is_corrigendum  ?pub_date ?lang
 WHERE {
   GRAPH <#{GRAPH-URI}> {
   ?manif cdm:manifestation_official-journal_part_information_number ?number .
   ?manif cdm:manifestation_official-journal_part_typedoc_printer  ?typedoc .
   ?manif cdm:manifestation_official-journal_part_is_corrigendum_printer ?is_corrigendum .
+  ?expr cdm:expression_uses_language ?lang .
   OPTIONAL {
   ?work cdm:resource_legal_published_in_official-journal ?oj .
   ?oj  cdm:publication_general_date_publication ?pub_date .
@@ -165,21 +167,18 @@ ORDER BY ?lang_code")
                   (info "is-corrigendum" is-corrigendum)
                   (if (= is-corrigendum "C")
                     (let
-                        [lang-query-replaced (clojure.string/replace lang-query "#{GRAPH-URI}" graph-uri)
-                         lang-query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode lang-query-replaced) "&output=json")
-                         lang-query-result (json/parse-string (:body (client/get lang-query-url)))
-                         lang-binding (get (get lang-query-result "results")  "bindings")
-                         langs (clojure.string/join "-" (map #(get (get %1 "lang_code") "value") lang-binding))
+                        [lang  (get (get binding "lang") "value")
+                         singlelang (clojure.string/lower-case (re-find #"[A-Z]{3}$" lang))
                          pub-date (get (get binding "pub_date") "value")]  
-                      (if lang-binding
-                        (do
-                          (info "langs: " langs)
-                          (info "pub-date: " pub-date)
-                          (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/" pub-date "/corr-" langs  "/oj"))
-                        cellar-psi))
-                    (str "http://eli.budabe.eu/eli/" typedoc "/" year "/" natural-number "/oj")))
+                      (do
+                        (info "lang: " lang)
+                        (info "pub-date: " pub-date)
+                        (templ/uritemplate "http://eli.budabe.eu/eli/{typedoc}/{year}/{naturalnumber}/corr/{singlelang}/{pubdate}/oj" 
+                                             {"typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "singlelang" singlelang})))
+                    (templ/uritemplate "http://eli.budabe.eu/eli/{typedoc}/{year}/{naturalnumber}/oj" {"typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
                 cellar-psi))
             (catch Exception e cellar-psi))]
+       (info "eli" eli)
        (swap! elis assoc cellar-psi eli)
        eli)))
 

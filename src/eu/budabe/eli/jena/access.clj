@@ -45,6 +45,7 @@
       [core (ModelFactory/createDefaultModel)
        model (ModelFactory/createDefaultModel)]
     (doseq [url urls]
+      (println url)
       (.add core (.read model 
                         (java.io.StringReader. 
                          (:body (client/get url {:headers {"Accept" "application/rdf+xml"}}))) "" "RDF/XML")))

@@ -10,7 +10,8 @@
                  [enlive "1.1.1"]
                  [hiccup "1.0.3"]
                  [com.taoensso/timbre "2.1.2"]
-                 [seabass "2.0"]]
+                 [seabass "2.0"]
+                 [uritemplate-clj "1.0.0"]]
   :main eu.budabe.eli ;mainly for performance measures
   :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
   :plugins [[lein-ring "0.8.5"]]
