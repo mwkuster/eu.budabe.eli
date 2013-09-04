@@ -215,14 +215,14 @@ ORDER BY ?lang_code")
        query (slurp "resources/eli_md.rq")]
     (rdf/pull query model)))
 
-(defn get-psi-for-corrigendum [typedoc year natural-number pub-date langs]
+(defn get-psi-for-corrigendum [typedoc year natural-number pub-date lang]
   "Get the metadata of a corrigendum from the Cache using its ELI"
   (let
       [query (slurp "resources/find_corrigendum.rq")
        query-interpreted 
        (clojure.string/replace query #"~typedoc~|~year~|~natural-number~|~pub-date~|~lang~" 
                                {"~typedoc~" (get RT_TYPEDOC_MAPPING typedoc), "~year~" year, "~natural-number~" natural-number, 
-                                "~pub-date~" pub-date, "~lang~" (clojure.string/upper-case (first langs))})
+                                "~pub-date~" pub-date, "~lang~" (clojure.string/upper-case lang)})
        query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query-interpreted) "&output=json")
        query-result (json/parse-string (:body (client/get query-url)))]
     (info query-interpreted)

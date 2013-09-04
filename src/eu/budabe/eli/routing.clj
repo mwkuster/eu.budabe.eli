@@ -25,11 +25,10 @@
   (GET "/eli4psi" []
        (resp/redirect "/psi2eli.html"))
 
-  (GET "/eli/:typedoc/:year/:natural_number/:pub-date/corr-:langs/oj" [typedoc year natural_number pub-date langs]
-       (info typedoc year natural_number pub-date langs)
+  (GET "/eli/:typedoc/:year/:natural_number/corr/:lang/:pub-date/oj" [typedoc year natural_number lang pub-date]
+       (info typedoc year natural_number lang pub-date)
        (let
-           [lang-lst (clojure.string/split langs #"-")
-            psi (get-psi-for-corrigendum typedoc year natural_number pub-date lang-lst)]
+           [psi (get-psi-for-corrigendum typedoc year natural_number pub-date lang)]
          (println psi)
          (if psi
            (build-rdfa (eli-metadata psi))
