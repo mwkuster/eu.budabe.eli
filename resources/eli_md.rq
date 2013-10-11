@@ -18,8 +18,11 @@ CONSTRUCT {
   eli:date_publication ?pub_date ;
   eli:cites ?cites_eli ;
   eli:cited_by ?cites_by_eli ;
-  eli:transposes ?transposes ;
-  eli:transposed_by ?transposed_by ;
+  eli:related_to ?related_to ;
+  eli:consolidates ?consolidates_eli ;
+  eli:consolidated_by ?consolidated_by_eli ;
+  eli:transposes ?transposes_eli ;
+  eli:transposed_by ?transposed_by_eli ;
   eli:based_on ?based_on_eli ;
   eli:basis_for ?basis_for_eli ;
   eli:changes ?changes_eli ;
@@ -45,8 +48,8 @@ CONSTRUCT {
   OPTIONAL { ?subj cdm:work_cited_by_work ?cited_by }
   OPTIONAL { ?subj cdm:work_explains_work ?cites }
   OPTIONAL { ?subj cdm:work_explained_by_work ?cited_by }
-  OPTIONAL { ?subj cdm:work_summarizes_work ?cites }
-  OPTIONAL { ?subj cdm:work_summarized_by_work ?cited_by }
+  OPTIONAL { ?subj cdm:summarizes ?cites }
+  OPTIONAL { ?subj cdm:summarized_by ?cited_by }
   OPTIONAL { ?subj cdm:work_related_to_work ?related_to }
   OPTIONAL { ?subj cdm:work_affects_work ?related_to }
   OPTIONAL { ?subj cdm:work_affected_by_work ?related_to }
@@ -70,6 +73,7 @@ CONSTRUCT {
   OPTIONAL { ?subj cdm:act_consolidated_consolidates_resource_legal ?consolidates }
   OPTIONAL { ?subj cdm:resource_legal_consolidated_by_act_consolidated ?consolidated_by }
   OPTIONAL { ?subj cdm:directive_implemented_by_measure_national_implementing ?transposes  }
+  OPTIONAL { ?subj cdm:measure_national_implementing_implements_directive ?transposed_by  }
   OPTIONAL { ?subj cdm:resource_legal_based_on_resource_legal ?based_on }
   OPTIONAL { ?subj cdm:resource_legal_based_on_treaty ?based_on }
   OPTIONAL { ?subj cdm:resource_legal_basis_for_resource_legal ?basis_for  }
@@ -103,6 +107,8 @@ CONSTRUCT {
   BIND (IRI(ext:ToEli(?related_to)) AS ?related_to_eli)
   BIND (IRI(ext:ToEli(?consolidates)) AS ?consolidates_eli)
   BIND (IRI(ext:ToEli(?consolidated_by)) AS ?consolidated_by_eli)
+  BIND (IRI(ext:ToEli(?transposes)) AS ?transposes_eli)
+  BIND (IRI(ext:ToEli(?transposed_by)) AS ?transposed_by_eli)
   BIND (IRI(ext:ToEli(?based_on)) AS ?based_on_eli)
   BIND (IRI(ext:ToEli(?basis_for)) AS ?basis_for_eli)
   BIND (IRI(ext:ToEli(?relevant_for)) AS ?relevant_for_eli)

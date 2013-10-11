@@ -22,6 +22,8 @@
 
 (def TYPEDOC_CB_MAPPING (json/parse-string (slurp "resources/typedoc_cb_mapping.json")))
 
+(def DOMAIN "eli.budabe.eu")
+
 (def oj-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:resource_legal_published_in_official-journal ?uri}")
 
 (def expression-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:work_has_expression ?uri}")
@@ -92,7 +94,8 @@ WHERE {
 }
   FILTER(strlen(?number) > 0) # && strlen(?typedoc) > 0 && strlen(?is_corrigendum) > 0)
   }
-} LIMIT 1")
+  ORDER BY ?lang
+} LIMIT 1") 
 
 (def lang-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
 SELECT DISTINCT ?lang_code
@@ -173,9 +176,10 @@ ORDER BY ?lang_code")
                       (do
                         (info "lang: " lang)
                         (info "pub-date: " pub-date)
-                        (templ/uritemplate "http://eli.budabe.eu/eli/{typedoc}/{year}/{naturalnumber}/corr/{singlelang}/{pubdate}/oj" 
-                                             {"typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "singlelang" singlelang})))
-                    (templ/uritemplate "http://eli.budabe.eu/eli/{typedoc}/{year}/{naturalnumber}/oj" {"typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
+                        ;for the sequence number find all the other corrigenda for the same number and the same pubdate, then order by language concerned
+                        (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
+                                             {"domain": DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
+                    (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" {"domain" DOMAIN, "typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
                 cellar-psi))
             (catch Exception e cellar-psi))]
        (info "eli" eli)
