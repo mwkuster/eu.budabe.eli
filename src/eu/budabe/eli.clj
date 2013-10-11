@@ -92,10 +92,11 @@ WHERE {
   ?work cdm:resource_legal_published_in_official-journal ?oj .
   ?oj  cdm:publication_general_date_publication ?pub_date .
 }
-  FILTER(strlen(?number) > 0) # && strlen(?typedoc) > 0 && strlen(?is_corrigendum) > 0)
+  FILTER(strlen(?number) > 0) 
   }
-  ORDER BY ?lang
-} LIMIT 1") 
+} 
+ORDER BY ?lang
+LIMIT 1") 
 
 (def lang-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
 SELECT DISTINCT ?lang_code
@@ -148,7 +149,7 @@ ORDER BY ?lang_code")
 (defn eli4psi 
   "Transform where possible a Cellar PSI into an ELI"
    [^String cellar-psi]
-   (info cellar-psi)
+   (info "cellar-psi" cellar-psi)
    (if (find @elis cellar-psi)
      (get @elis cellar-psi)
      (let
@@ -160,13 +161,13 @@ ORDER BY ?lang_code")
                  query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
                  query-result (json/parse-string (:body (client/get query-url)))
                  binding (first (get (get query-result "results")  "bindings"))]
-              (info binding)
+              (info "binding" binding)
               (if binding
                 (let
                     [number (get (get binding "number") "value")
                      [year natural-number] (parse-number cellar-psi number)
                      typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
-                     is-corrigendum  (get (get binding "is_corrigendum") "value")]
+                     is-corrigendum (get (get binding "is_corrigendum") "value")]
                   (info "is-corrigendum" is-corrigendum)
                   (if (= is-corrigendum "C")
                     (let
@@ -181,7 +182,8 @@ ORDER BY ?lang_code")
                         (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
                                              {"domain" DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
                     (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" {"domain" DOMAIN, "typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
-                cellar-psi))
+                "abc"))
+                ;cellar-psi))
             (catch Exception e cellar-psi))]
        (info "eli" eli)
        (swap! elis assoc cellar-psi eli)
