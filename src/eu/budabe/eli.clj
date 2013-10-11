@@ -177,8 +177,9 @@ ORDER BY ?lang_code")
                         (info "lang: " lang)
                         (info "pub-date: " pub-date)
                         ;for the sequence number find all the other corrigenda for the same number and the same pubdate, then order by language concerned
+                        ; TODO: implement correctly
                         (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
-                                             {"domain": DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
+                                             {"domain" DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
                     (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" {"domain" DOMAIN, "typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
                 cellar-psi))
             (catch Exception e cellar-psi))]
