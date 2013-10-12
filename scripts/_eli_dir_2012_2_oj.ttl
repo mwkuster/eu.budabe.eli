@@ -1,0 +1,438 @@
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/bul/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0006.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/bul/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/bul/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0006.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ces/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0012.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ces/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ces/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0012.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/dan/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0019.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/dan/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/dan/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0019.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/deu/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0022.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/deu/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/deu/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0022.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ell/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0017.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ell/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ell/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0017.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/eng/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0014.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/eng/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/eng/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0014.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/est/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0002.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/est/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/est/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0002.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fin/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0015.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fin/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fin/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0015.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fra/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0021.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fra/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fra/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0021.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/hun/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0005.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/hun/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/hun/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0005.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ita/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0018.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ita/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ita/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0018.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lav/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0008.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lav/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lav/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0008.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lit/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0016.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lit/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lit/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0016.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/mlt/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0020.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/mlt/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/mlt/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0020.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/nld/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0007.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/nld/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/nld/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0007.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/pol/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0003.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/pol/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/pol/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0003.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/por/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0009.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/por/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/por/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0009.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ron/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0010.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ron/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ron/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0010.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slk/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0013.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slk/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slk/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0013.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slv/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0011.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slv/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slv/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0011.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/spa/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0001.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/spa/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/spa/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0001.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/swe/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0004.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/swe/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/swe/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/7bf7ed1e-4387-49c7-ba9a-57e3233f0503.0004.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir/2012/2/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/bul> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Директива 2012/2/ЕС на Комисията от 9 февруари 2012 година за изменение на Директива 98/8/ЕО на Европейския парламент и на Съвета за включване на меден (II) оксид, меден (II) хидроксид и основен меден карбонат като активни вещества в приложение I към нея  текст от значение за ЕИП";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/BUL> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ces> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Směrnice Komise 2012/2/EU ze dne 9. února 2012 , kterou se mění směrnice Evropského parlamentu a Rady 98/8/ES za účelem zařazení účinné látky oxidu měďnatého (II), hydroxidu měďnatého (II) a zásaditého uhličitanu měďnatého do přílohy I uvedené směrnice  Text s významem pro EHP";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/CES> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/dan> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Kommissionens direktiv 2012/2/EU af 9. februar 2012 om ændring af Europa-Parlamentets og Rådets direktiv 98/8/EF med henblik på at optage kobber(II)oxid, kobber(II)hydroxid og basisk kobberkarbonat som aktive stoffer i bilag I hertil  EØS-relevant tekst";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DAN> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/deu> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Richtlinie 2012/2/EU der Kommission vom 9. Februar 2012 zur Änderung der Richtlinie 98/8/EG des Europäischen Parlaments und des Rates zwecks Aufnahme der Wirkstoffe Kupfer(II)-oxid, Kupfer(II)-hydroxid und basisches Kupfercarbonat in Anhang I  Text von Bedeutung für den EWR";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DEU> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ell> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Οδηγία 2012/2/ΕΕ της Επιτροπής, της 9ης Φεβρουαρίου 2012 , για την τροποποίηση της οδηγίας 98/8/ΕΚ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου με σκοπό την καταχώριση του οξειδίου του χαλκού (ΙΙ), του υδροξειδίου του χαλκού (ΙΙ) και του βασικού ανθρακικού χαλκού ως δραστικών ουσιών στο παράρτημα I  Κείμενο που παρουσιάζει ενδιαφέρον για τον ΕΟΧ";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ELL> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/eng> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Commission Directive 2012/2/EU of 9 February 2012 amending Directive 98/8/EC of the European Parliament and of the Council to include copper (II) oxide, copper (II) hydroxide and basic copper carbonate as active substances in Annex I thereto  Text with EEA relevance";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ENG> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/est> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komisjoni direktiiv 2012/2/EL, 9. veebruar 2012 , millega muudetakse Euroopa Parlamendi ja nõukogu direktiivi 98/8/EÜ, et kanda selle I lisasse toimeained vask(II)oksiid, vask(II)hüdroksiid ja aluseline vaskkarbonaat  EMPs kohaldatav tekst";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/EST> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fin> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komission direktiivi 2012/2/EU, annettu 9 päivänä helmikuuta 2012 , Euroopan parlamentin ja neuvoston direktiivin 98/8/EY muuttamisesta kupari(II)oksidin, kupari(II)hydroksidin ja emäksisen kuparikarbonaatin lisäämiseksi tehoaineena liitteeseen I  ETA:n kannalta merkityksellinen teksti";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FIN> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/fra> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Directive 2012/2/UE de la Commission du 9 février 2012 modifiant la directive 98/8/CE du Parlement européen et du Conseil par l'inscription de l'oxyde de cuivre (II), de l'hydroxyde de cuivre (II) et du carbonate basique de cuivre en tant que substances actives dans son annexe I  Texte présentant de l'intérêt pour l'EEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FRA> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/hun> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "A Bizottság 2012/2/EU irányelve ( 2012. február 9. ) a 98/8/EK európai parlamenti és tanácsi irányelv I. mellékletének a réz(II)-oxid, a réz(II)-hidroxid és a bázikus rézkarbonát hatóanyagként való felvétele céljából történő módosításáról  EGT-vonatkozású szöveg";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/HUN> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ita> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Direttiva 2012/2/UE della Commissione, del 9 febbraio 2012 , recante modifica della direttiva 98/8/CE del Parlamento europeo e del Consiglio al fine di includere l’ossido di rame (II), l’idrossido di rame (II) e il carbonato basico di rame come principi attivi nell’allegato I della direttiva  Testo rilevante ai fini del SEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ITA> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lav> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komisijas Direktīva 2012/2/ES ( 2012. gada 9. februāris ), ar ko groza Eiropas Parlamenta un Padomes Direktīvu 98/8/EK, lai iekļautu tās I pielikumā aktīvās vielas vara (II) oksīdu, vara (II) hidroksīdu un bāzisko vara karbonātu  Dokuments attiecas uz EEZ";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LAV> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/lit> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "2012 m. vasario 9 d. Komisijos direktyva 2012/2/ES, kuria iš dalies keičiama Europos Parlamento ir Tarybos direktyva 98/8/EB į jos I priedą įtraukiant veikliąsias medžiagas vario (II) oksidą, vario (II) hidroksidą ir bazinį vario karbonatą  Tekstas svarbus EEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LIT> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/mlt> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Direttiva tal-Kummissjoni 2012/2/UE tad- 9 ta’ Frar 2012 li temenda d-Direttiva 98/8/KE tal-Parlament Ewropew u tal-Kunsill biex l-ossidu tar-ram (II), l-idrossidu tar-ram (II) u l-karbonat tar-ram bażiku jiġu inklużi bħala sustanzi attivi fl-Anness I għaliha  Test b’relevanza għaż-ŻEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/MLT> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/nld> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Richtlijn 2012/2/EU van de Commissie van 9 februari 2012 tot wijziging van Richtlijn 98/8/EG van het Europees Parlement en de Raad teneinde koper(II)oxide, koper(II)hydroxide en basiskopercarbonaat als werkzame stoffen in bijlage I bij die richtlijn op te nemen  Voor de EER relevante tekst";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/NLD> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/pol> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Dyrektywa Komisji 2012/2/UE z dnia 9 lutego 2012 r. zmieniająca dyrektywę 98/8/WE Parlamentu Europejskiego i Rady w celu włączenia tlenku miedzi (II), wodorotlenku miedzi (II) oraz węglanu diwodorotlenku miedzi (II) jako substancji czynnych do załącznika I do tej dyrektywy  Tekst mający znaczenie dla EOG";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POL> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/por> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Diretiva 2012/2/UE da Comissão, de 9 de fevereiro de 2012 , que altera a Diretiva 98/8/CE do Parlamento Europeu e do Conselho com o objetivo de incluir as substâncias ativas óxido de cobre (II), hidróxido de cobre (II) e carbonato de cobre básico no anexo I da mesma  Texto relevante para efeitos do EEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POR> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/ron> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Directiva 2012/2/UE a Comisiei din 9 februarie 2012 de modificare a Directivei 98/8/CE a Parlamentului European și a Consiliului pentru includerea oxidului de cupru (II), a hidroxidului de cupru (II) și a carbonatului bazic de cupru ca substanțe active în anexa I la directivă  Text cu relevanță pentru SEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/RON> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slk> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Smernica Komisie 2012/2/EÚ z  9. februára 2012 , ktorou sa mení a dopĺňa smernica Európskeho parlamentu a Rady 98/8/ES s cieľom zaradiť oxid meďnatý, hydroxid meďnatý a bázický uhličitan meďnatý ako aktívne látky do prílohy I k uvedenej smernici  Text s významom pre EHP";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLK> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/slv> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Direktiva Komisije 2012/2/EU z dne 9. februarja 2012 o spremembi Direktive 98/8/ES Evropskega parlamenta in Sveta za vključitev bakrovega (II) oksida, bakrovega (II) hidroksida in bazičnega bakrovega karbonata kot aktivnih snovi v Prilogo I k Direktivi  Besedilo velja za EGP";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLV> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/spa> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Directiva 2012/2/UE de la Comisión, de 9 de febrero de 2012 , por la que se modifica la Directiva 98/8/CE del Parlamento Europeo y del Consejo de forma que incluya el óxido de cobre (II), el hidróxido de cobre (II) y el carbonato básico de cobre como sustancias activas en su anexo I  Texto pertinente a efectos del EEE";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SPA> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj/swe> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Kommissionens direktiv 2012/2/EU av den 9 februari 2012 om ändring av Europaparlamentets och rådets direktiv 98/8/EG för att ta upp koppar(II)oxid, koppar(II)hydroxid och basiskt kopparkarbonat som verksamma ämnen i bilaga I till direktivet  Text av betydelse för EES";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SWE> .
+
+<http://eli.budabe.eu/eli/dir/2012/2/oj> a <http://eurlex.europa.eu/eli#resource_legal>;
+   <http://eurlex.europa.eu/eli#agent_document> <http://publications.europa.eu/resource/authority/corporate-body/COM>;
+   <http://eurlex.europa.eu/eli#based_on> <http://eli.budabe.eu/eli/dir/1998/8/oj>;
+   <http://eurlex.europa.eu/eli#changes> <http://eli.budabe.eu/eli/dir/1998/8/oj>;
+   <http://eurlex.europa.eu/eli#changed_by> <http://eli.budabe.eu/eli/dir/2012/528/oj>;
+   <http://eurlex.europa.eu/eli#cites> <http://eli.budabe.eu/eli/reg/2007/1451/oj>;
+   <http://eurlex.europa.eu/eli#date_document> "2012-02-09";
+   <http://eurlex.europa.eu/eli#date_entry-in-force> "2012-03-01";
+   <http://eurlex.europa.eu/eli#date_no-longer-in-force> "2013-08-31";
+   <http://eurlex.europa.eu/eli#date_publication> "2012-02-10";
+   <http://eurlex.europa.eu/eli#id_document> <http://eli.budabe.eu/eli/dir/2012/2/oj>;
+   <http://eurlex.europa.eu/eli#id_local> "32012L0002";
+   <http://eurlex.europa.eu/eli#is_about> <http://eurovoc.europa.eu/1386>,
+     <http://eurovoc.europa.eu/192>,
+     <http://eurovoc.europa.eu/2825>,
+     <http://eurovoc.europa.eu/3730>,
+     <http://eurovoc.europa.eu/3810>,
+     <http://eurovoc.europa.eu/5451>;
+   <http://eurlex.europa.eu/eli#type_document> <http://publications.europa.eu/resource/authority/resource-type/DIR> .

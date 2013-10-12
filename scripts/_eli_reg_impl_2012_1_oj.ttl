@@ -1,0 +1,435 @@
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0013.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0013.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0016.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0016.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0014.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0014.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0022.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0022.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0015.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0015.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0020.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0020.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0007.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0007.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0005.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0005.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0021.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0021.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0009.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0009.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0010.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0010.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0006.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0006.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0011.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0011.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0001.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0001.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0018.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0018.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0008.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0008.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0003.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0003.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0019.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0019.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0002.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0002.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0017.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0017.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0004.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0004.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0012.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/622864f8-4dd2-4e21-96b3-adf53e69ea51.0012.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/bul> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Регламент за изпълнение (ЕС) № 1/2012 на Комисията от 3 януари 2012 година за установяване на стандартни стойности при внос с цел определяне на входната цена на някои плодове и зеленчуци";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/BUL> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ces> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Prováděcí nařízení Komise (EU) č. 1/2012 ze dne 3. ledna 2012 o stanovení paušálních dovozních hodnot pro určení vstupní ceny některých druhů ovoce a zeleniny";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/CES> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/dan> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Kommissionens gennemførelsesforordning (EU) nr. 1/2012 af 3. januar 2012 om faste importværdier med henblik på fastsættelse af indgangsprisen for visse frugter og grøntsager";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DAN> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/deu> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Durchführungsverordnung (EU) Nr. 1/2012 der Kommission vom 3. Januar 2012 zur Festlegung pauschaler Einfuhrwerte für die Bestimmung der für bestimmtes Obst und Gemüse geltenden Einfuhrpreise";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DEU> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ell> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Εκτελεστικός κανονισμός (ΕΕ) αριθ. 1/2012 της Επιτροπής, της 3ης Ιανουαρίου 2012 , για καθορισμό των κατ’ αποκοπή τιμών εισαγωγής για τον προσδιορισμό της τιμής εισόδου ορισμένων οπωροκηπευτικών";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ELL> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/eng> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Commission Implementing Regulation (EU) No 1/2012 of 3 January 2012 establishing the standard import values for determining the entry price of certain fruit and vegetables";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ENG> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/est> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komisjoni rakendusmäärus (EL) nr 1/2012, 3. jaanuar 2012 , millega kehtestatakse kindlad impordiväärtused, et määrata kindlaks teatava puu- ja köögivilja hind piiril";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/EST> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fin> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komission täytäntöönpanoasetus (EU) N:o 1/2012, annettu 3 päivänä tammikuuta 2012, kiinteistä tuontiarvoista tiettyjen hedelmien ja vihannesten tulohinnan määrittämiseksi";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FIN> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/fra> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Règlement d'exécution (UE) n ° 1/2012 de la Commission du 3 janvier 2012 établissant les valeurs forfaitaires à l'importation pour la détermination du prix d'entrée de certains fruits et légumes";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FRA> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/hun> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "A Bizottság 1/2012/EU végrehajtási rendelete ( 2012. január 3. ) az egyes gyümölcs- és zöldségfélék behozatali árának meghatározására szolgáló behozatali átalányértékek megállapításáról";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/HUN> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ita> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regolamento di esecuzione (UE) n. 1/2012 della Commissione, del 3 gennaio 2012 , recante fissazione dei valori forfettari all'importazione ai fini della determinazione del prezzo di entrata di taluni ortofrutticoli";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ITA> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lav> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Komisijas Īstenošanas regula (ES) Nr. 1/2012 ( 2012. gada 3. janvāris ), ar kuru nosaka standarta importa vērtības atsevišķu veidu augļu un dārzeņu ievešanas cenas noteikšanai";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LAV> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/lit> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "2012 m. sausio 3 d. Komisijos įgyvendinimo reglamentas (ES) Nr. 1/2012, kuriuo nustatomos standartinės importo vertės, skirtos tam tikrų vaisių ir daržovių įvežimo kainai nustatyti";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LIT> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/mlt> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regolament ta’ Implimentazzjoni tal-Kummissjoni (UE) Nru 1/2012 tat- 3 ta’ Jannar 2012 li jistabbilixxi l-valuri standard tal-importazzjoni għad-determinazzjoni tal-prezz ta' dħul ta' ċertu frott u ħxejjex";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/MLT> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/nld> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Uitvoeringsverordening (EU) nr. 1/2012 van de Commissie van 3 januari 2012 tot vaststelling van de forfaitaire invoerwaarden voor de bepaling van de invoerprijs van bepaalde groenten en fruit";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/NLD> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/pol> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Rozporządzenie wykonawcze Komisji (UE) nr 1/2012 z dnia 3 stycznia 2012 r. ustanawiające standardowe wartości w przywozie dla ustalania ceny wejścia niektórych owoców i warzyw";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POL> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/por> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regulamento de Execução (UE) n. ° 1/2012 da Comissão, de 3 de janeiro de 2012, que estabelece os valores forfetários de importação para a determinação do preço de entrada de certos frutos e produtos hortícolas";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POR> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/ron> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regulamentul de punere în aplicare (UE) nr. 1/2012 al Comisiei din 3 ianuarie 2012 de stabilire a valorilor forfetare de import pentru fixarea prețului de intrare pentru anumite fructe și legume";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/RON> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slk> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Vykonávacie nariadenie Komisie (EÚ) č. 1/2012 z  3. januára 2012 , ktorým sa ustanovujú paušálne dovozné hodnoty na určovanie vstupných cien niektorých druhov ovocia a zeleniny";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLK> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/slv> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Izvedbena uredba Komisije (EU) št. 1/2012 z dne 3. januarja 2012 o določitvi standardnih uvoznih vrednosti za določitev uvozne cene za nekatere vrste sadja in zelenjave";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLV> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/spa> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Reglamento de Ejecución (UE) n ° 1/2012 de la Comisión, de 3 de enero de 2012 , por el que se establecen valores de importación a tanto alzado para la determinación del precio de entrada de determinadas frutas y hortalizas";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SPA> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj/swe> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Kommissionens genomförandeförordning (EU) nr 1/2012 av den 3 januari 2012 om fastställande av schablonimportvärden för bestämning av ingångspriset för vissa frukter och grönsaker";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SWE> .
+
+<http://eli.budabe.eu/eli/reg_impl/2012/1/oj> a <http://eurlex.europa.eu/eli#resource_legal>;
+   <http://eurlex.europa.eu/eli#agent_document> <http://publications.europa.eu/resource/authority/corporate-body/COM>;
+   <http://eurlex.europa.eu/eli#based_on> <http://eli.budabe.eu/eli/reg/2007/1234/oj>,
+     <http://eli.budabe.eu/eli/reg_impl/2011/543/oj>;
+   <http://eurlex.europa.eu/eli#date_document> "2012-01-03";
+   <http://eurlex.europa.eu/eli#date_entry-in-force> "2012-01-04";
+   <http://eurlex.europa.eu/eli#date_publication> "2012-01-04";
+   <http://eurlex.europa.eu/eli#id_document> <http://eli.budabe.eu/eli/reg_impl/2012/1/oj>;
+   <http://eurlex.europa.eu/eli#id_local> "32012R0001";
+   <http://eurlex.europa.eu/eli#is_about> <http://eurovoc.europa.eu/1118>,
+     <http://eurovoc.europa.eu/1605>,
+     <http://eurovoc.europa.eu/2173>,
+     <http://eurovoc.europa.eu/2635>,
+     <http://eurovoc.europa.eu/3191>,
+     <http://eurovoc.europa.eu/693>;
+   <http://eurlex.europa.eu/eli#type_document> <http://publications.europa.eu/resource/authority/resource-type/REG_IMPL> .

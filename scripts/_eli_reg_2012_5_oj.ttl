@@ -1,0 +1,442 @@
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/bul/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0002.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/bul/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/bul/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0002.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/bul>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ces/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0006.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ces/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ces/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0006.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ces>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/dan/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0020.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/dan/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/dan/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0020.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/dan>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/deu/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0021.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/deu/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/deu/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0021.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/deu>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ell/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0018.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ell/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ell/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0018.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ell>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/eng/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0016.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/eng/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/eng/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0016.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/eng>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/est/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0017.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/est/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/est/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0017.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/est>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fin/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0013.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fin/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fin/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0013.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fin>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fra/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0015.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fra/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fra/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0015.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/fra>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/hun/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0011.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/hun/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/hun/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0011.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/hun>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ita/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0001.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ita/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ita/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0001.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ita>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lav/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0022.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lav/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lav/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0022.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lav>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lit/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0012.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lit/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lit/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0012.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/lit>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/mlt/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0014.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/mlt/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/mlt/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0014.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/mlt>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/nld/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0003.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/nld/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/nld/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0003.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/nld>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/pol/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0010.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/pol/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/pol/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0010.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/pol>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/por/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0008.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/por/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/por/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0008.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/por>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ron/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0009.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ron/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ron/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0009.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/ron>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slk/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0005.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slk/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slk/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0005.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slk>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slv/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0007.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slv/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slv/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0007.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/slv>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/spa/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0019.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/spa/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/spa/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0019.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/spa>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/swe/pdfa1a> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0004.01/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/swe/print> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/swe/xhtml> a <http://eurlex.europa.eu/eli#format>;
+   <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/f057bf6f-6648-451f-9b63-2216d5491c79.0004.02/DOC_1>;
+   <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/reg/2012/5/oj/swe>;
+   <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/bul> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Регламент (ЕС) № 5/2012 на Съвета от 19 декември 2011 година за определяне на възможностите за риболов на определени рибни запаси и групи рибни запаси за 2012 г., приложими в Черно море";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/BUL> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ces> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Nařízení Rady (EU) č. 5/2012 ze dne 19. prosince 2011 , kterým se pro rok 2012 stanoví rybolovná práva pro některé populace ryb a skupiny populací ryb v Černém moři";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/CES> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/dan> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Rådets forordning (EU) nr. 5/2012 af 19. december 2011 om fastsættelse for 2012 af fiskerimuligheder for visse fiskebestande og grupper af fiskebestande i Sortehavet";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DAN> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/deu> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Verordnung (EU) Nr. 5/2012 des Rates vom 19. Dezember 2011 zur Festsetzung der Fangmöglichkeiten für bestimmte Fischbestände und Bestandsgruppen im Schwarzen Meer (2012)";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/DEU> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ell> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Κανονισμός (ΕΕ) αριθ. 5/2012 του Συμβουλίου, της 19ης Δεκεμβρίου 2011 , περί καθορισμού, για το 2012, των αλιευτικών δυνατοτήτων στον Εύξεινο Πόντο για ορισμένα αποθέματα ιχθύων και ομάδες αποθεμάτων ιχθύων";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ELL> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/eng> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Council Regulation (EU) No 5/2012 of 19 December 2011 fixing for 2012 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in the Black Sea";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ENG> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/est> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Nõukogu määrus (EL) nr 5/2012, 19. detsember 2011 , millega määratakse kindlaks teatavate Musta mere kalavarude ja kalavarurühmade püügivõimalused 2012. aastaks";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/EST> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fin> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Neuvoston asetus (EU) N:o 5/2012, annettu 19 päivänä joulukuuta 2011 , eräiden kalakantojen ja kalakantaryhmien Mustallamerellä sovellettavien kalastusmahdollisuuksien vahvistamisesta vuodeksi 2012";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FIN> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/fra> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Règlement (UE) n ° 5/2012 du Conseil du 19 décembre 2011 établissant, pour 2012, les possibilités de pêche applicables en mer Noire pour certains stocks halieutiques et groupes de stocks halieutiques";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/FRA> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/hun> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "A Tanács 5/2012/EU rendelete ( 2011. december 19. ) a bizonyos halállományok és halállománycsoportok tekintetében a Fekete-tengeren alkalmazandó halászati lehetőségeknek a 2012. évre történő meghatározásáról";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/HUN> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ita> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regolamento (UE) n. 5/2012 del Consiglio, del 19 dicembre 2011 , che stabilisce, per il 2012, le possibilità di pesca per alcuni stock e gruppi di stock ittici applicabili nel Mar Nero";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/ITA> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lav> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Padomes Regula (ES) Nr. 5/2012 ( 2011. gada 19. decembris ), ar ko 2012. gadam nosaka dažu zivju krājumu un zivju krājumu grupu zvejas iespējas Melnajā jūrā";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LAV> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/lit> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "2011 m. gruodžio 19 d. Tarybos reglamentas (ES) Nr. 5/2012, kuriuo nustatomos 2012 m. tam tikrų žuvų išteklių ir žuvų išteklių grupių žvejybos Juodojoje jūroje galimybės";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/LIT> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/mlt> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regolament tal-Kunsill (UE) Nru 5/2012 tad- 19 ta' Diċembru 2011 li jistabbilixxi għall-2012 l-opportunitajiet tas-sajd għal ċerti stokkijiet ta’ ħut u gruppi ta’ stokkijiet ta’ ħut applikabbli fil-Baħar l-Iswed";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/MLT> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/nld> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Verordening (EU) nr. 5/2012 van de Raad van 19 december 2011 tot vaststelling, voor 2012, van de vangstmogelijkheden voor sommige visbestanden en groepen visbestanden welke in de Zwarte Zee van toepassing zijn";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/NLD> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/pol> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Rozporządzenie Rady (UE) nr 5/2012 z dnia 19 grudnia 2011 r. ustalające uprawnienia do połowów na 2012 rok dla niektórych stad ryb i grup stad ryb, mające zastosowanie na wodach Morza Czarnego";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POL> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/por> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regulamento (UE) n. ° 5/2012 do Conselho, de 19 de dezembro de 2011 , que fixa, para 2012, em relação a determinadas unidades populacionais de peixes e grupos de unidades populacionais de peixes, as possibilidades de pesca aplicáveis no mar Negro";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/POR> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/ron> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Regulamentul (UE) nr. 5/2012 al Consiliului din 19 decembrie 2011 de stabilire, pentru 2012, a posibilităților de pescuit pentru anumite stocuri de pește și grupe de stocuri de pește aplicabile în Marea Neagră";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/RON> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slk> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Nariadenie Rady (EÚ) č. 5/2012 z  19. decembra 2011 , ktorým sa na rok 2012 stanovujú rybolovné možnosti pre určité zásoby rýb a skupiny zásob rýb uplatniteľné v Čiernom mori";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLK> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/slv> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Uredba Sveta (EU) št. 5/2012 z dne 19. decembra 2011 o določitvi ribolovnih možnosti za nekatere staleže rib in skupine staležev rib, ki se za leto 2012 uporabljajo v Črnem morju";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SLV> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/spa> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Reglamento (UE) n ° 5/2012 del Consejo, de 19 de diciembre de 2011 , por el que se establecen, para 2012, las posibilidades de pesca aplicables en el Mar Negro a determinadas poblaciones y grupos de poblaciones de peces";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SPA> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj/swe> a <http://eurlex.europa.eu/eli#interpretation>;
+   <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#expression_title> "Rådets förordning (EU) nr 5/2012 av den 19 december 2011 om fastställande för 2012 av fiskemöjligheter för vissa fiskbestånd och grupper av fiskbestånd i Svarta havet";
+   <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/SWE> .
+
+<http://eli.budabe.eu/eli/reg/2012/5/oj> a <http://eurlex.europa.eu/eli#resource_legal>;
+   <http://eurlex.europa.eu/eli#agent_document> <http://publications.europa.eu/resource/authority/corporate-body/CONSIL>;
+   <http://eurlex.europa.eu/eli#based_on> "file:///home/mwkuster/eu.budabe.eli/abc";
+   <http://eurlex.europa.eu/eli#cites> <http://eli.budabe.eu/eli/reg/1996/847/oj>,
+     <http://eli.budabe.eu/eli/reg/2002/2371/oj>,
+     <http://eli.budabe.eu/eli/reg/2009/1224/oj>;
+   <http://eurlex.europa.eu/eli#date_document> "2011-12-19";
+   <http://eurlex.europa.eu/eli#date_entry-in-force> "2012-01-01",
+     "2012-01-07";
+   <http://eurlex.europa.eu/eli#date_no-longer-in-force> "9999-12-31";
+   <http://eurlex.europa.eu/eli#date_publication> "2012-01-06";
+   <http://eurlex.europa.eu/eli#id_document> <http://eli.budabe.eu/eli/reg/2012/5/oj>;
+   <http://eurlex.europa.eu/eli#id_local> "32012R0005";
+   <http://eurlex.europa.eu/eli#is_about> <http://eurovoc.europa.eu/1159>,
+     <http://eurovoc.europa.eu/133>,
+     <http://eurovoc.europa.eu/2308>,
+     <http://eurovoc.europa.eu/2437>,
+     <http://eurovoc.europa.eu/4788>,
+     <http://eurovoc.europa.eu/5254>,
+     <http://eurovoc.europa.eu/544>,
+     <http://eurovoc.europa.eu/5736>;
+   <http://eurlex.europa.eu/eli#related_to> <http://publications.europa.eu/resource/celex/52011PC0799>;
+   <http://eurlex.europa.eu/eli#type_document> <http://publications.europa.eu/resource/authority/resource-type/REG> .
