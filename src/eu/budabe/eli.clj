@@ -182,8 +182,7 @@ ORDER BY ?lang_code")
                         (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
                                              {"domain" DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
                     (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" {"domain" DOMAIN, "typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
-                "abc"))
-                ;cellar-psi))
+                cellar-psi))
             (catch Exception e cellar-psi))]
        (info "eli" eli)
        (swap! elis assoc cellar-psi eli)
