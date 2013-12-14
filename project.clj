@@ -4,13 +4,13 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [clj-http "0.7.2"]
+                 [clj-http "0.7.8"]
                  [cheshire "5.2.0"]
-                 [compojure "1.1.5"]
-                 [enlive "1.1.1"]
-                 [hiccup "1.0.3"]
-                 [com.taoensso/timbre "2.1.2"]
-                 [seabass "2.0"]
+                 [compojure "1.1.6"]
+                 ;;[enlive "1.1.1"]
+                 [hiccup "1.0.4"]
+                 [com.taoensso/timbre "2.7.1"]
+                 [seabass "2.1.1"]
                  [uritemplate-clj "1.0.0"]]
   :main eu.budabe.eli ;mainly for performance measures
   :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
