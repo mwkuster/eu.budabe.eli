@@ -14,7 +14,7 @@
                  [uritemplate-clj "1.0.0"]]
   :main eu.budabe.eli ;mainly for performance measures
   :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
-  :plugins [[lein-ring "0.8.5"]]
+  :plugins [[lein-ring "0.8.8"]]
   :ring {:handler eu.budabe.eli.routing/app}
   :profiles
   {:dev {:dependencies [[ring-mock "0.1.5"]]}})
