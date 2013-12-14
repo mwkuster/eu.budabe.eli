@@ -1,4 +1,4 @@
-(defproject eu.budabe.eli "1.1.0-SNAPSHOT"
+(defproject eu.budabe.eli "1.2.0"
   :description "A Clojure library designed to build prototypical European Legislation Identifiers (ELIs) based on Cellar data"
   :url "https://github.com/mwkuster/eu.budabe.eli"
   :license {:name "Eclipse Public License"
