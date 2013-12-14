@@ -3,10 +3,17 @@
 A Clojure library designed to build prototypical European Legislation Identifiers (ELIs) based on Cellar data
 
 ## Usage
-
+```
 lein compile
 
-lein ring server
+lein ring server-headless 
+```
+
+With logging this can become
+```
+lein ring server-headless 2>&1| tee out-[DATE].log
+```
+
 
 ## Precondition
 

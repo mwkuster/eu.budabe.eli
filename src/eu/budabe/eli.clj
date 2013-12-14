@@ -47,9 +47,7 @@ SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {
   [^String cellar-psi]
   (let
       [work-model (build-model (list cellar-psi))
-       oj-model (build-model (map :uri (:data (rdf/bounce oj-query work-model))))
-       expression-model (build-model (map :uri (:data (rdf/bounce expression-query work-model))))
-       manifestation-model (build-model (map :uri (:data (rdf/bounce manifestation-query expression-model))))]
+       oj-model (build-model (map :uri (:data (rdf/bounce oj-query work-model))))]
     (rdf/build work-model oj-model expression-model manifestation-model)))
 
 (defn fetch-work-from-cache 

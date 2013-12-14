@@ -48,7 +48,7 @@
       (println url)
       (.add core (.read model 
                         (java.io.StringReader. 
-                         (:body (client/get url {:headers {"Accept" "application/rdf+xml"}}))) "" "RDF/XML")))
+                         (:body (client/get url {:headers {"Accept" "application/rdf+xml;type=tree"}}))) "" "RDF/XML")))
     core))
 
 (defn build-model-from-string [str]
