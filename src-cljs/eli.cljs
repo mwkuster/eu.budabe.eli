@@ -7,12 +7,12 @@
             [ajax.core :refer [GET]]))
 
 (defn write-eli [response]
-  (.log js/console (str response))
+  (.log js/console (str "Response: " response))
   (let
-      [eli "ELI"
-       encoded-psi "encoded-psi"]
+      [eli (str response)
+       encoded-eli (url-encode eli)]
   (set-html! (by-id "ELI") 
-             (str "Your ELI is: <b><a href=\""  eli  "\">" eli  "</a></b><br/> See here the corresponding <a href=\"/eli4psi/" encoded-psi "/metadata\">RDFa-enriched metadata</a>  (might take a moment to load)"))))
+             (str "Your ELI is: <b><a href=\""  eli  "\">" eli  "</a></b><br/> See here the corresponding <a href=\"/eli4psi/" encoded-eli "/metadata\">RDFa-enriched metadata</a>  (might take a moment to load)"))))
 
 (defn write-eli-error [response]
   (.log js/console (str response))
@@ -26,9 +26,8 @@
       [psi (.-value (by-id "psi"))
        psi-type (.-value (first (nodes (sel "input[name=psitype]:radio:checked"))))
        uricomponent (if (= psi-type "celex") "/celex/" "/oj/")
-       psi-uri (str "http://publications.europa.eu/resource" uricomponent psi)
-       encoded-psi (url-encode psi-uri)]
-    (set-html! (by-id "ELI") (str "<b>Please wait for the search for identifier " psi-uri " to complete</b>"))
+       encoded-psi (url-encode (str "http://publications.europa.eu/resource" uricomponent psi))]
+    (set-html! (by-id "ELI") (str "<b>Please wait for the search for identifier " psi " to complete</b>"))
     (.log js/console psi)
     (.log js/console psi-type)
     (.log js/console uricomponent)
@@ -37,8 +36,8 @@
      (str "/eli4psi/" encoded-psi)
      {;:response-format :json
       :handler write-eli
-      :error-handler write-eli-error})
-    (set-html! (by-id "ELI") "<b>Done</b>"))
+      :error-handler write-eli-error}))
+    ;(set-html! (by-id "ELI") "<b>Done</b>"))
                                         ;Use prevent-default and stop-propagation to prevent the event from bubbling up 
                                         ;from the OK button to the form element and therefore causing 
                                         ;a reload for the page
