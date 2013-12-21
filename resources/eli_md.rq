@@ -130,4 +130,5 @@ CONSTRUCT {
   BIND ( IRI(ext:ToRT(?typedoc)) AS ?rt)
 
   MINUS { ?subj a cdm:official-journal }
+  MINUS { ?subj a cdm:special-official-journal }
 }
