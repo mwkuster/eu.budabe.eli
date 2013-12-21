@@ -6,6 +6,8 @@ A Clojure library designed to build prototypical European Legislation Identifier
 ```
 lein compile
 
+lein cljsbuild once
+
 lein ring server-headless 
 ```
 

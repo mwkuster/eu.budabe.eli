@@ -1,35 +1,35 @@
-$(document).ajaxStart(function(){
-    $("#loading").show();
-}).ajaxStop(function(){
-    $("#loading").hide();
+// Compiled by ClojureScript 0.0-2120
+goog.provide('eli');
+goog.require('cljs.core');
+goog.require('domina.css');
+goog.require('cemerick.url');
+goog.require('ajax.core');
+goog.require('domina');
+goog.require('ajax.core');
+goog.require('cemerick.url');
+goog.require('domina.xpath');
+goog.require('domina.xpath');
+goog.require('domina.events');
+goog.require('domina.events');
+goog.require('domina.css');
+goog.require('domina');
+eli.write_eli = (function write_eli(response){console.log([cljs.core.str(response)].join(''));
+var eli__$1 = "ELI";var encoded_psi = "encoded-psi";return domina.set_html_BANG_.call(null,domina.by_id.call(null,"ELI"),[cljs.core.str("Your ELI is: <b><a href=\""),cljs.core.str(eli__$1),cljs.core.str("\">"),cljs.core.str(eli__$1),cljs.core.str("</a></b><br/> See here the corresponding <a href=\"/eli4psi/"),cljs.core.str(encoded_psi),cljs.core.str("/metadata\">RDFa-enriched metadata</a>  (might take a moment to load)")].join(''));
 });
-
-$(function () {
-    $("#psi2eliform").submit(function (event) {
-        var psi = $("#psi").val();
-        var psitype = $("input[name=psitype]:radio:checked").val();
-        if(psitype == 'celex') {
-            var uricomponent = '/celex/';
-        } else {
-            var uricomponent = '/oj/';
-        };
-        var encodedPSI =  encodeURIComponent("http://publications.europa.eu/resource" + uricomponent + psi).replace(/\(/g, "%2528").replace(/\)/g, "%2529");
-        $("#ELI").html("<b>Please wait for the search for identifier " + psi + " to complete</b>");
-        $.ajax({
-            url: "/eli4psi/" + encodedPSI,
-            type: "GET",
-            dataType : "json",
-            async : true,
-            success: function( json ) {
-                var eli = JSON.stringify(json); 
-                var eli_msg = "Your ELI is: <b><a href=" + eli + "\>" + eli + "</a></b><br/> See here the corresponding <a href=\"/eli4psi/" + encodedPSI + "/metadata\">RDFa-enriched metadata</a>  (might take a moment to load)";
-                $("#ELI").html(eli_msg);
-            },
-            error: function( xhr, status ) {
-                alert(status);
-                $("#ELI").html("<b>" + xhr.responseText + "</b>");
-            },
-        });
-        return false;
-    });
+eli.write_eli_error = (function write_eli_error(response){console.log([cljs.core.str(response)].join(''));
+return domina.set_html_BANG_.call(null,domina.by_id.call(null,"ELI"),[cljs.core.str("<b>"),cljs.core.str(response),cljs.core.str("</b>")].join(''));
 });
+eli.calculate_eli = (function calculate_eli(event){console.log("calcualte-eli");
+var psi_6720 = domina.by_id.call(null,"psi").value;var psi_type_6721 = cljs.core.first.call(null,domina.nodes.call(null,domina.css.sel.call(null,"input[name=psitype]:radio:checked"))).value;var uricomponent_6722 = ((cljs.core._EQ_.call(null,psi_type_6721,"celex"))?"/celex/":"/oj/");var psi_uri_6723 = [cljs.core.str("http://publications.europa.eu/resource"),cljs.core.str(uricomponent_6722),cljs.core.str(psi_6720)].join('');var encoded_psi_6724 = cemerick.url.url_encode.call(null,psi_uri_6723);domina.set_html_BANG_.call(null,domina.by_id.call(null,"ELI"),[cljs.core.str("<b>Please wait for the search for identifier "),cljs.core.str(psi_uri_6723),cljs.core.str(" to complete</b>")].join(''));
+console.log(psi_6720);
+console.log(psi_type_6721);
+console.log(uricomponent_6722);
+console.log([cljs.core.str("/eli4psi/"),cljs.core.str(encoded_psi_6724)].join(''));
+ajax.core.GET.call(null,[cljs.core.str("/eli4psi/"),cljs.core.str(encoded_psi_6724)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"handler","handler",1706707644),eli.write_eli,new cljs.core.Keyword(null,"error-handler","error-handler",1866823671),eli.write_eli_error], null));
+domina.set_html_BANG_.call(null,domina.by_id.call(null,"ELI"),"<b>Done</b>");
+domina.events.prevent_default.call(null,event);
+return domina.events.stop_propagation.call(null,event);
+});
+eli.main = (function main(){return domina.events.listen_BANG_.call(null,domina.by_id.call(null,"okBtn"),new cljs.core.Keyword(null,"click","click",1108654330),eli.calculate_eli);
+});
+goog.exportSymbol('eli.main', eli.main);

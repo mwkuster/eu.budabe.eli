@@ -4,8 +4,7 @@
   <head>
     <title>EUR-Lex to ELI conversion</title>
     <link rel="stylesheet" href="/eli.css"/>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="/eli.js"></script>
+    <script src="/eli.js" type="text/javascript"></script>
   </head>
   <body>
     <h1>EUR-Lex production system identifier to ELI</h1>    
@@ -19,6 +18,9 @@
     </form>
     <p id="loading">Loading</p>
     <p id="ELI"> </p>
-    <p class="warning">This tool is purely experimental, privately maintained and certain to change. No guarantee for any of the ELIs generated.</p>
+    <p class="warning">This tool is purely experimental, privately
+    maintained and certain to change. No guarantee for any of the ELIs
+    generated.</p>
+    <script>eli.main();</script>
   </body>
 </html>
