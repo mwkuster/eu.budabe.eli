@@ -24,7 +24,7 @@
   :cljsbuild
   {:builds	
    [{:source-paths [​"src-cljs"​]
-     :compiler	{:optimizations :advanced
-                 ;:pretty-print true
+     :compiler	{:optimizations :whitespace
+                 :pretty-print true
                  :output-dir "public"
                  :output-to ​"public/eli.js"​}}]})

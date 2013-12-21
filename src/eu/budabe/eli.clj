@@ -144,54 +144,70 @@ ORDER BY ?lang_code")
       (client/get uri {:as :stream})
       {:status 404})))
     
-(def elis (atom {}))
+(defrecord ELIComponents 
+    [year natural-number typedoc is-corrigendum lang pub-date seq-number])
 
-(defn eli4psi 
+(defn- get-eli-components [cellar-psi]
+  "Extract the ELI components from the triplestore"
+  (let
+      [graph-uri (get-graph-uri cellar-psi)
+       query (clojure.string/replace eli-query "#{GRAPH-URI}" graph-uri)
+       query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
+       query-result (json/parse-string (:body (client/get query-url)))
+       binding (first (get (get query-result "results")  "bindings"))]
+    (info "query-url" query-url)
+    (info "binding" binding)
+    (if binding
+      (let
+          [number (get (get binding "number") "value")
+           [year natural-number] (parse-number cellar-psi number)
+           typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
+           is-corrigendum (get (get binding "is_corrigendum") "value")
+           lang  (get (get binding "lang") "value")
+           singlelang (clojure.string/lower-case (re-find #"[A-Z]{3}$" lang))
+           pub-date (get (get binding "pub_date") "value")]
+                                        ;for the sequence number find all the other corrigenda for the same number and the same pubdate, then order by language concerned
+                                        ; TODO: implement correctly
+                                        ;TODO: replace singlelang by a real sequence number
+        (ELIComponents. year natural-number typedoc is-corrigendum lang pub-date singlelang))
+      nil)))
+        
+(defn- eli4psi-raw
   "Transform where possible a Cellar PSI into an ELI"
    [^String cellar-psi]
    (info "cellar-psi" cellar-psi)
-   (if (find @elis cellar-psi)
-     (do 
-       (info "found in @elis " cellar-psi)
-       (get @elis cellar-psi))
-     (let
-         [eli 
-          (try
-            (let
-                [graph-uri (get-graph-uri cellar-psi)
-                 query (clojure.string/replace eli-query "#{GRAPH-URI}" graph-uri)
-                 query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
-                 query-result (json/parse-string (:body (client/get query-url)))
-                 binding (first (get (get query-result "results")  "bindings"))]
-              (info "query-url" query-url)
-              (info "binding" binding)
-              (if binding
-                (let
-                    [number (get (get binding "number") "value")
-                     [year natural-number] (parse-number cellar-psi number)
-                     typedoc (get  TYPEDOC_RT_MAPPING (get (get binding "typedoc") "value"))
-                     is-corrigendum (get (get binding "is_corrigendum") "value")]
-                  (info "is-corrigendum" is-corrigendum)
-                  (if (= is-corrigendum "C")
-                    (let
-                        [lang  (get (get binding "lang") "value")
-                         singlelang (clojure.string/lower-case (re-find #"[A-Z]{3}$" lang))
-                         pub-date (get (get binding "pub_date") "value")]  
-                      (do
-                        (info "lang: " lang)
-                        (info "pub-date: " pub-date)
-                        ;for the sequence number find all the other corrigenda for the same number and the same pubdate, then order by language concerned
-                        ; TODO: implement correctly
-                        (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
-                                             {"domain" DOMAIN, "typedoc" typedoc, "year" year, "naturalnumber" natural-number, "pubdate" pub-date, "seqnumber" singlelang})))
-                    (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" {"domain" DOMAIN, "typedoc" typedoc, "year" year,  "naturalnumber" natural-number})))
-                cellar-psi))
-            (catch Exception e cellar-psi))]
-       (info "eli" eli)
-       (swap! elis assoc cellar-psi eli)
-       eli)))
+   (let
+       [eli 
+        (try
+          (let
+              [eli-components (get-eli-components cellar-psi)]
+            (if eli-components
+              (do
+                (info "eli-components for psi" eli-components cellar-psi)
+                (if (= (:is-corrigendum eli-components) "C")
+                  (do
+                    (info "lang: " (:lang eli-components))
+                    (info "pub-date: " (:pub-date eli-components))                          
+                    (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
+                                       {"domain" DOMAIN, "typedoc" (:typedoc eli-components), 
+                                        "year" (:year eli-components), 
+                                        "naturalnumber" (:natural-number eli-components), 
+                                        "pubdate" (:pub-date eli-components), 
+                                        "seqnumber" (:seq-number eli-components)}))
+                  (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" 
+                                     {"domain" DOMAIN, "typedoc" (:typedoc eli-components), 
+                                      "year" (:year eli-components),  
+                                      "naturalnumber" (:natural-number eli-components)})))
+              cellar-psi))
+          (catch Exception e 
+            (do 
+              (info "Threw exception for " cellar-psi)
+              cellar-psi)))]
+     (info "eli" eli)
+     eli))
 
-
+(def eli4psi
+ (memoize eli4psi-raw))
 
 (defn eli-by-year [year]
   (let
