@@ -5,7 +5,7 @@
             [domina.xpath :as xpath]
             [cemerick.url :refer [url url-encode]]
             [ajax.core :refer [GET]]))
-
+ 
 (defn write-eli [response]
   (let
       [eli (str response)
