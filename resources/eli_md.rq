@@ -128,4 +128,6 @@ CONSTRUCT {
   } #Print manifestations have no link to a file
   BIND ( IRI(lcase(replace(str(?manif), "^.*\\.([A-Z]{3})\\.([a-z0-9]+)$", concat(?eli_str, "/", "$1", "/", "$2")))) AS ?manif_eli)
   BIND ( IRI(ext:ToRT(?typedoc)) AS ?rt)
+
+  MINUS { ?subj a cdm:official-journal }
 }
