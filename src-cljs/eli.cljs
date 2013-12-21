@@ -8,7 +8,7 @@
  
 (defn write-eli [response]
   (let
-      [eli (str response)
+      [eli (str response) 
        encoded-eli (url-encode eli)]
   (set-html! (by-id "ELI") 
              (str "Your ELI is: <b><a href=\""  eli  "\">" eli  "</a></b><br/>"
@@ -22,9 +22,10 @@
   "Have the ELI calculated by the backend based on the given production id"
   (let
       [psi (.-value (by-id "psi"))
+       psi-without-brackets (clojure.string/replace (clojure.string/replace psi "(" "%28") ")" "%29")
        psi-type (.-value (first (nodes (sel "input[name=psitype]:radio:checked"))))
        uricomponent (if (= psi-type "celex") "/celex/" "/oj/")
-       encoded-psi (url-encode (str "http://publications.europa.eu/resource" uricomponent psi))]
+       encoded-psi (url-encode (str "http://publications.europa.eu/resource" uricomponent psi-without-brackets))]
     (set-html! (by-id "ELI") (str "<b>Please wait for the search for identifier " psi " to complete</b>"))
     (GET 
      (str "/eli4psi/" encoded-psi)

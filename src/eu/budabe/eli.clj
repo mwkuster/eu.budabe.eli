@@ -176,35 +176,29 @@ ORDER BY ?lang_code")
   "Transform where possible a Cellar PSI into an ELI"
    [^String cellar-psi]
    (info "cellar-psi" cellar-psi)
-   (let
-       [eli 
-        (try
-          (let
-              [eli-components (get-eli-components cellar-psi)]
-            (if eli-components
-              (do
-                (info "eli-components for psi" eli-components cellar-psi)
-                (if (= (:is-corrigendum eli-components) "C")
-                  (do
-                    (info "lang: " (:lang eli-components))
-                    (info "pub-date: " (:pub-date eli-components))                          
-                    (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
-                                       {"domain" DOMAIN, "typedoc" (:typedoc eli-components), 
-                                        "year" (:year eli-components), 
-                                        "naturalnumber" (:natural-number eli-components), 
-                                        "pubdate" (:pub-date eli-components), 
-                                        "seqnumber" (:seq-number eli-components)}))
-                  (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" 
-                                     {"domain" DOMAIN, "typedoc" (:typedoc eli-components), 
-                                      "year" (:year eli-components),  
-                                      "naturalnumber" (:natural-number eli-components)})))
-              cellar-psi))
-          (catch Exception e 
-            (do 
-              (info "Threw exception for " cellar-psi)
-              cellar-psi)))]
-     (info "eli" eli)
-     eli))
+   (try
+     (if-let
+         [eli-components (get-eli-components cellar-psi)]
+       (do
+         (info "eli-components for psi" eli-components cellar-psi)
+         (if (= (:is-corrigendum eli-components) "C")               
+           (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
+                                {"domain" DOMAIN, 
+                                 "typedoc" (:typedoc eli-components), 
+                                 "year" (:year eli-components), 
+                                 "naturalnumber" (:natural-number eli-components), 
+                                 "pubdate" (:pub-date eli-components), 
+                                 "seqnumber" (:seq-number eli-components)})
+           (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" 
+                              {"domain" DOMAIN, 
+                               "typedoc" (:typedoc eli-components), 
+                               "year" (:year eli-components),  
+                               "naturalnumber" (:natural-number eli-components)})))
+       cellar-psi)
+     (catch Exception e 
+       (do 
+         (info "Exception for " cellar-psi)
+         cellar-psi))))
 
 (def eli4psi
  (memoize eli4psi-raw))
