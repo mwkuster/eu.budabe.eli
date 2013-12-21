@@ -127,7 +127,10 @@
 
 <http://eli.budabe.eu/eli/dir_impl/2012/1/oj/hrv/fmx4> a <http://eurlex.europa.eu/eli#format>;
    <http://eurlex.europa.eu/eli#link_manifestation> <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_1>,
-     <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_2>;
+     <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_10>,
+     <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_2>,
+     <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_8>,
+     <http://publications.europa.eu/resource/cellar/70a67fc9-cbde-42c6-9861-26cfd754d792.0023.02/DOC_9>;
    <http://eurlex.europa.eu/eli#manifests> <http://eli.budabe.eu/eli/dir_impl/2012/1/oj/hrv>;
    <http://eurlex.europa.eu/eli#publisher> "Publications Office" .
 
@@ -439,7 +442,7 @@
 
 <http://eli.budabe.eu/eli/dir_impl/2012/1/oj/hrv> a <http://eurlex.europa.eu/eli#interpretation>;
    <http://eurlex.europa.eu/eli#belongs_to> <http://eli.budabe.eu/eli/dir_impl/2012/1/oj>;
-   <http://eurlex.europa.eu/eli#expression_title> ": Provedbena direktiva Komisije 2012/1/EU od 6. siječnja 2012. o izmjeni Priloga I. Direktivi Vijeća 66/402/EEZ u pogledu uvjeta koje mora ispuniti usjev Oryza sativaTekst značajan za EGP";
+   <http://eurlex.europa.eu/eli#expression_title> "Provedbena direktiva Komisije 2012/1/EU od 6. siječnja 2012. o izmjeni Priloga I. Direktivi Vijeća 66/402/EEZ u pogledu uvjeta koje mora ispuniti usjev Oryza sativa  Tekst značajan za EGP";
    <http://eurlex.europa.eu/eli#language_expression> <http://publications.europa.eu/resource/authority/language/HRV> .
 
 <http://eli.budabe.eu/eli/dir_impl/2012/1/oj> a <http://eurlex.europa.eu/eli#resource_legal>;

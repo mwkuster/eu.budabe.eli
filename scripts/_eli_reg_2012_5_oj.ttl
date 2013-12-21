@@ -419,7 +419,7 @@
 
 <http://eli.budabe.eu/eli/reg/2012/5/oj> a <http://eurlex.europa.eu/eli#resource_legal>;
    <http://eurlex.europa.eu/eli#agent_document> <http://publications.europa.eu/resource/authority/corporate-body/CONSIL>;
-   <http://eurlex.europa.eu/eli#based_on> "file:///home/mwkuster/eu.budabe.eli/abc";
+   <http://eurlex.europa.eu/eli#based_on> <http://publications.europa.eu/resource/celex/12010E043>;
    <http://eurlex.europa.eu/eli#cites> <http://eli.budabe.eu/eli/reg/1996/847/oj>,
      <http://eli.budabe.eu/eli/reg/2002/2371/oj>,
      <http://eli.budabe.eu/eli/reg/2009/1224/oj>;

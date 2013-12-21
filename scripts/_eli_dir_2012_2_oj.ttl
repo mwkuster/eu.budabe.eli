@@ -421,7 +421,7 @@
    <http://eurlex.europa.eu/eli#agent_document> <http://publications.europa.eu/resource/authority/corporate-body/COM>;
    <http://eurlex.europa.eu/eli#based_on> <http://eli.budabe.eu/eli/dir/1998/8/oj>;
    <http://eurlex.europa.eu/eli#changes> <http://eli.budabe.eu/eli/dir/1998/8/oj>;
-   <http://eurlex.europa.eu/eli#changed_by> <http://eli.budabe.eu/eli/dir/2012/528/oj>;
+   <http://eurlex.europa.eu/eli#changed_by> <http://eli.budabe.eu/eli/reg/2012/528/oj>;
    <http://eurlex.europa.eu/eli#cites> <http://eli.budabe.eu/eli/reg/2007/1451/oj>;
    <http://eurlex.europa.eu/eli#date_document> "2012-02-09";
    <http://eurlex.europa.eu/eli#date_entry-in-force> "2012-03-01";
