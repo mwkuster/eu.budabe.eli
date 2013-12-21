@@ -16,6 +16,3 @@
   :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
   :plugins [[lein-ring "0.8.8"]]
   :ring {:handler eu.budabe.eli.routing/app})
-  ;; :profiles
-  ;; {:dev {:dependencies [[ring-mock "0.1.5"]]}})
-

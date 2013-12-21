@@ -33,10 +33,11 @@
 (defn in-cache? [^String cellar-psi]
   (let
       [find-graph-query (URLEncoder/encode (clojure.string/replace "PREFIX owl: <http://www.w3.org/2002/07/owl#>
-SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o} UNION {?s owl:sameAs <#{cellar_psi}>}} } LIMIT 1" "#{cellar_psi}" cellar-psi))
+SELECT DISTINCT ?gra WHERE { GRAPH ?gra{ {<#{cellar_psi}> owl:sameAs ?o . ?o owl:sameAs ?gra . } UNION {?s owl:sameAs <#{cellar_psi}> . ?s owl:sameAs ?gra .}} } LIMIT 1" "#{cellar_psi}" cellar-psi))
        query-url (str "http://localhost:3030/eli/query?query=" find-graph-query "&output=json")
        query-result (json/parse-string (:body (client/get query-url)))
        binding (first (get (get query-result "results")  "bindings"))]
+    (info "in-cache? query" query-url)
     (if binding
       (get (get binding "gra") "value")
       nil)))
@@ -125,6 +126,7 @@ ORDER BY ?lang_code")
 (defn get-graph-uri
   "Get the Graph URI of an object in the cache (if existing)"
   [^String cellar-psi]
+  (info "get-graph-uri for psi " cellar-psi)
   (let
       [graph-uri (in-cache? cellar-psi)]
     (if graph-uri
@@ -149,7 +151,9 @@ ORDER BY ?lang_code")
    [^String cellar-psi]
    (info "cellar-psi" cellar-psi)
    (if (find @elis cellar-psi)
-     (get @elis cellar-psi)
+     (do 
+       (info "found in @elis " cellar-psi)
+       (get @elis cellar-psi))
      (let
          [eli 
           (try
@@ -159,6 +163,7 @@ ORDER BY ?lang_code")
                  query-url (str "http://localhost:3030/eli/query?query=" (URLEncoder/encode query) "&output=json")
                  query-result (json/parse-string (:body (client/get query-url)))
                  binding (first (get (get query-result "results")  "bindings"))]
+              (info "query-url" query-url)
               (info "binding" binding)
               (if binding
                 (let
