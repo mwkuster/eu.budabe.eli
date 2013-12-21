@@ -36176,27 +36176,20 @@ goog.require("domina.events");
 goog.require("domina.css");
 goog.require("domina");
 eli.write_eli = function write_eli(response) {
-  console.log([cljs.core.str("Response: "), cljs.core.str(response)].join(""));
   var eli__$1 = [cljs.core.str(response)].join("");
   var encoded_eli = cemerick.url.url_encode.call(null, eli__$1);
-  return domina.set_html_BANG_.call(null, domina.by_id.call(null, "ELI"), [cljs.core.str('Your ELI is: \x3cb\x3e\x3ca href\x3d"'), cljs.core.str(eli__$1), cljs.core.str('"\x3e'), cljs.core.str(eli__$1), cljs.core.str('\x3c/a\x3e\x3c/b\x3e\x3cbr/\x3e See here the corresponding \x3ca href\x3d"/eli4psi/'), cljs.core.str(encoded_eli), cljs.core.str('/metadata"\x3eRDFa-enriched metadata\x3c/a\x3e  (might take a moment to load)')].join(""));
+  return domina.set_html_BANG_.call(null, domina.by_id.call(null, "ELI"), [cljs.core.str('Your ELI is: \x3cb\x3e\x3ca href\x3d"'), cljs.core.str(eli__$1), cljs.core.str('"\x3e'), cljs.core.str(eli__$1), cljs.core.str("\x3c/a\x3e\x3c/b\x3e\x3cbr/\x3e"), cljs.core.str('See here the corresponding \x3ca href\x3d"/eli4psi/'), cljs.core.str(encoded_eli), cljs.core.str('/metadata"\x3eRDFa-enriched metadata\x3c/a\x3e  (might take a moment to load)')].join(""));
 };
 eli.write_eli_error = function write_eli_error(response) {
-  console.log([cljs.core.str(response)].join(""));
   return domina.set_html_BANG_.call(null, domina.by_id.call(null, "ELI"), [cljs.core.str("\x3cb\x3e"), cljs.core.str(response), cljs.core.str("\x3c/b\x3e")].join(""));
 };
 eli.calculate_eli = function calculate_eli(event) {
-  console.log("calcualte-eli");
-  var psi_6716 = domina.by_id.call(null, "psi").value;
-  var psi_type_6717 = cljs.core.first.call(null, domina.nodes.call(null, domina.css.sel.call(null, "input[name\x3dpsitype]:radio:checked"))).value;
-  var uricomponent_6718 = cljs.core._EQ_.call(null, psi_type_6717, "celex") ? "/celex/" : "/oj/";
-  var encoded_psi_6719 = cemerick.url.url_encode.call(null, [cljs.core.str("http://publications.europa.eu/resource"), cljs.core.str(uricomponent_6718), cljs.core.str(psi_6716)].join(""));
-  domina.set_html_BANG_.call(null, domina.by_id.call(null, "ELI"), [cljs.core.str("\x3cb\x3ePlease wait for the search for identifier "), cljs.core.str(psi_6716), cljs.core.str(" to complete\x3c/b\x3e")].join(""));
-  console.log(psi_6716);
-  console.log(psi_type_6717);
-  console.log(uricomponent_6718);
-  console.log([cljs.core.str("/eli4psi/"), cljs.core.str(encoded_psi_6719)].join(""));
-  ajax.core.GET.call(null, [cljs.core.str("/eli4psi/"), cljs.core.str(encoded_psi_6719)].join(""), new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "handler", "handler", 1706707644), eli.write_eli, new cljs.core.Keyword(null, "error-handler", "error-handler", 1866823671), eli.write_eli_error], null));
+  var psi_6685 = domina.by_id.call(null, "psi").value;
+  var psi_type_6686 = cljs.core.first.call(null, domina.nodes.call(null, domina.css.sel.call(null, "input[name\x3dpsitype]:radio:checked"))).value;
+  var uricomponent_6687 = cljs.core._EQ_.call(null, psi_type_6686, "celex") ? "/celex/" : "/oj/";
+  var encoded_psi_6688 = cemerick.url.url_encode.call(null, [cljs.core.str("http://publications.europa.eu/resource"), cljs.core.str(uricomponent_6687), cljs.core.str(psi_6685)].join(""));
+  domina.set_html_BANG_.call(null, domina.by_id.call(null, "ELI"), [cljs.core.str("\x3cb\x3ePlease wait for the search for identifier "), cljs.core.str(psi_6685), cljs.core.str(" to complete\x3c/b\x3e")].join(""));
+  ajax.core.GET.call(null, [cljs.core.str("/eli4psi/"), cljs.core.str(encoded_psi_6688)].join(""), new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "handler", "handler", 1706707644), eli.write_eli, new cljs.core.Keyword(null, "error-handler", "error-handler", 1866823671), eli.write_eli_error], null));
   domina.events.prevent_default.call(null, event);
   return domina.events.stop_propagation.call(null, event);
 };
