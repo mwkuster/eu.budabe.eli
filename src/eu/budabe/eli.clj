@@ -5,9 +5,9 @@
   (:require [cheshire.core :as json])
   (:require [taoensso.timbre :as timbre
             :refer (trace debug info warn error fatal spy)])
-  (:require [uritemplate-clj.core :as templ])
   (:use eu.budabe.eli.rdfa)
   (:require [clojure.set :as cs])
+  (:require [eu.budabe.eli.eli :refer (build-eli)])
   (:import [java.net URLEncoder URLDecoder])
   (:import [java.net URL]))
 
@@ -21,8 +21,6 @@
 (def RT_TYPEDOC_MAPPING (cs/map-invert TYPEDOC_RT_MAPPING))
 
 (def TYPEDOC_CB_MAPPING (json/parse-string (slurp "resources/typedoc_cb_mapping.json")))
-
-(def DOMAIN "eli.budabe.eu")
 
 (def oj-query "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT DISTINCT ?uri\nWHERE {?work_uri cdm:resource_legal_published_in_official-journal ?uri}")
 
@@ -145,7 +143,8 @@ ORDER BY ?lang_code")
       {:status 404})))
     
 (defrecord ELIComponents 
-    [year natural-number typedoc is-corrigendum lang pub-date seq-number])
+    ;type-eli can be "ActOJ, CorrigendumOJ, ...
+    [type-eli year natural-number typedoc lang pub-date seq-number])
 
 (defn- get-eli-components [cellar-psi]
   "Extract the ELI components from the triplestore"
@@ -169,7 +168,11 @@ ORDER BY ?lang_code")
                                         ;for the sequence number find all the other corrigenda for the same number and the same pubdate, then order by language concerned
                                         ; TODO: implement correctly
                                         ;TODO: replace singlelang by a real sequence number
-        (ELIComponents. year natural-number typedoc is-corrigendum lang pub-date singlelang))
+        (ELIComponents. 
+         (if (= is-corrigendum "C")
+           "CorrigendumOJ"
+           "ActOJ")
+         year natural-number typedoc lang pub-date singlelang))
       nil)))
         
 (defn- eli4psi-raw
@@ -181,19 +184,7 @@ ORDER BY ?lang_code")
          [eli-components (get-eli-components cellar-psi)]
        (do
          (info "eli-components for psi" eli-components cellar-psi)
-         (if (= (:is-corrigendum eli-components) "C")               
-           (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/corr/{pubdate}/{seqnumber}/oj" 
-                                {"domain" DOMAIN, 
-                                 "typedoc" (:typedoc eli-components), 
-                                 "year" (:year eli-components), 
-                                 "naturalnumber" (:natural-number eli-components), 
-                                 "pubdate" (:pub-date eli-components), 
-                                 "seqnumber" (:seq-number eli-components)})
-           (templ/uritemplate "http://{domain}/eli/{typedoc}/{year}/{naturalnumber}/oj" 
-                              {"domain" DOMAIN, 
-                               "typedoc" (:typedoc eli-components), 
-                               "year" (:year eli-components),  
-                               "naturalnumber" (:natural-number eli-components)})))
+         (build-eli eli-components))
        cellar-psi)
      (catch Exception e 
        (do 
