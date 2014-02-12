@@ -5,8 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2120"]
-                 [clj-http "0.7.8"]
-                 [cheshire "5.2.0"]
+                 [clj-http "0.7.9"]
+                 [cheshire "5.3.1"]
                  [ring/ring-core "1.2.1"]
                  [compojure "1.1.6"]
                  [hiccup "1.0.4"]
@@ -18,8 +18,8 @@
                  [com.cemerick/url "0.1.0"]]
   :main eu.budabe.eli ;mainly for performance measures
   :aot [eu.budabe.eli.jena.ToEli eu.budabe.eli.jena.ToRT]
-  :plugins [[lein-ring "0.8.8"]
-            [lein-cljsbuild ​"1.0.1"​]]
+  :plugins [[lein-ring "0.8.10"]
+            [lein-cljsbuild "1.0.2"]]
   :ring {:handler eu.budabe.eli.routing/app}
   :cljsbuild
   {:builds	
