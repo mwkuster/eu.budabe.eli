@@ -19,7 +19,7 @@ lein ring server-headless 2>&1| tee out-[DATE].log
 
 Fuseki as server backend
 ===========================
-Download latest version of Fuseki and unzip. Run the server with
+Download latest version of Fuseki from http://jena.apache.org/download/index.cgi (at the time of writing jena-fuseki-1.1.0) and unzip. Run the server with
 ```
 ./fuseki-server -loc=/var/lib/fuseki/eli -update /eli
 ```
@@ -36,7 +36,7 @@ curl -v http://localhost:3030/eli/data?graph=http%3A%2F%2Fpublications.europa.eu
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2014
 
 Distributed under the Eclipse Public License, the same as Clojure.
 
